@@ -5,7 +5,164 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1  Principales componentes de frutas y verduras
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las frutas y verduras contienen una amplia variedad de nutrientes esenciales y compuestos funcionales que las convierten en alimentos clave para la salud. Sus componentes no solo nutren, sino que también poseen efectos beneficiosos sobre funciones fisiológicas y mecanismos de defensa del organismo.
+
+    Separador
+    #t_2_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 2.1	Vitaminas y sus funciones
+    
+    p.mb-4.mb-lg-5 Las vitaminas presentes en frutas y verduras cumplen funciones fundamentales en el organismo, ya que intervienen en una amplia variedad de procesos fisiológicos esenciales para el crecimiento, la regeneración celular, el metabolismo energético y el fortalecimiento del sistema inmunológico.
+
+    .row.justify-content-center.align-items-center.z-2.fullwith-bg.fullwith-bg--3.mb-4.mb-lg-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Gráfico 1. 
+          span Vitaminas en las frutas y verduras 
+        figure
+          img.mb-4.mb-lg-0.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
+          figcaption <strong>Nota</strong>: SENA (2024)
+
+    p.mb-4.mb-lg-5 Debido a su origen natural, estas vitaminas se encuentran en formas fácilmente asimilables por el cuerpo, lo que potencia sus efectos beneficiosos. Su presencia en la dieta diaria es clave para mantener un estado de salud óptimo y prevenir diversas deficiencias nutricionales. Entre las más destacadas por su abundancia y acción específica en estos alimentos se encuentran:
+
+    .row.justify-content-center.align-items-center.z-2
+      .col-8.col-sm-6.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/3.png', alt='Imagen decorativa')
+      .col-lg-8
+        AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
+          div(titulo="Vitamina C (ácido ascórbico)")
+            p Antioxidante, favorece la absorción de hierro y fortalece el sistema inmunológico. Presente en cítricos, guayaba, pimientos, entre otros.
+
+          div(titulo="Vitamina A (en forma de betacarotenos)")
+            p Esencial para la visión, el crecimiento y la piel. Abundante en zanahoria, calabaza y mango.
+
+          div(titulo="Vitamina K")
+            p Importante en la coagulación sanguínea. Presente en vegetales de hojas verdes.
+
+          div(titulo="Vitaminas del complejo B")
+            p Intervienen en el metabolismo energético. Se encuentran en plátanos, aguacates y legumbres.
+
+    Separador
+
+    #t_2_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 2.2	Minerales esenciales
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/4.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Los minerales son nutrientes inorgánicos muy importantes para los sistemas del cuerpo humano, hacen parte de los órganos y elementos internos de este. Se adquieren a través de la ingesta de una gran serie de alimentos como las frutas y verduras. Los minerales contribuyen en la salud de los seres humanos, manteniendo el funcionando correctamente a las células de todos los órganos de del cuerpo, son responsables de activar la producción de líquidos y otras sustancias como las hormonas y las enzimas, también intervienen en procesos vitales de los seres vivos como la respiración, la digestión y la circulación de la sangre.
+    
+    p.mb-4.mb-lg-5.text-center.fw-bold.z-2 Los siguientes minerales hacen parte de los más importantes que necesitan los seres humanos para sobrevivir y se encuentran en diversas frutas y verduras.
+
+    .row.justify-content-center.align-items-center.mb-3.mb-lg-4.z-2
+      .col-xl-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Tabla 2. 
+          span Clasificación de verduras
+        
+        .tabla-a.color-acento-contenido.mb-2
+          table.conservas-table
+            caption <strong>Nota</strong>: Sena (2024).
+            thead
+              tr(style="background: #9EB682;")
+                th Mineral
+                th(colspan="2") Función
+                th Precedencia
+            tbody
+              tr
+                td Hierro
+                td(colspan="2") Se encarga de producir hemoglobina en la sangre y participa en el transporte del oxígeno a través de todo el torrente sanguíneo.
+                td Puede encontrarse en verduras de hojas verdes y en higos.
+              tr
+                td Magnesio
+                td(colspan="2") Ayuda al correcto funcionamiento de los músculos, conserva sanos a los huesos y a los dientes; además es de gran ayuda para las articulaciones de brazos y piernas.
+                td El trigo, los fríjoles, el maíz, la avena, las almendras, las nueces, los higos y las verduras de hojas verdes.
+              tr
+                td Calcio
+                td(colspan="2") Es un mineral esencial para la formación de los huesos y los dientes, participa en las acciones que le permiten a la sangre coagularse, ayuda en las funciones musculares.
+                td Puede encontrarse en verduras de hojas verdes y en semillas de ajonjolí y perejil.
+              tr
+                td Fósforo
+                td(colspan="2") Hace parte del proceso mediante el cual se forman los huesos y los dientes, también participa en la creación de las células.
+                td Puede obtenerse de los cereales naturales, los fríjoles y las lentejas.
+              tr
+                td Selenio
+                td(colspan="2") Tiene propiedades antioxidantes y ayuda a prevenir el cáncer, además de facilitar el funcionamiento del corazón, el hígado y los órganos reproductivos.
+                td Puede encontrarse en los cereales integrales y en gran parte de las verduras.
+              tr
+                td Potasio
+                td(colspan="2") Sirve para el funcionamiento adecuado de los riñones y del corazón. Participa en la transmisión de señales nerviosas y controla los niveles de agua en el cuerpo.
+                td Todas las frutas, vegetales de hojas verdes y papas.
+              tr
+                td Sodio
+                td(colspan="2") Se ocupa del funcionamiento de los músculos y los nervios, regula los líquidos del cuerpo, contribuye a la correcta digestión de los alimentos y previene la deshidratación.
+                td Puede encontrarse en los cereales.
+              tr
+                td Flúor
+                td(colspan="2") Hace parte de la composición de los huesos y dientes, además previene la aparición de caries dentales.
+                td Se obtiene de frutas y verduras en general.
+              tr
+                td Zinc
+                td(colspan="2") Es importante para tener un adecuado desarrollo del cuerpo y sus tejidos como es el caso de la piel y el cabello.
+                td Se le puede encontrar en legumbres, frutos secos y semillas de girasol.
+    
+    Separador
+
+    #t_2_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 2.3 Sustancias bioactivas y fitoquímicos
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-10.col-sm-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema2/5.png', alt='Sustancias bioactivas y fitoquímicos')
+      .col-lg-8
+        p Las sustancias bioactivas, también conocidas como fitoquímicos, son compuestos presentes en los alimentos de origen vegetal que, aunque no son esenciales para la nutrición, tienen efectos beneficiosos sobre la salud cuando se consumen con regularidad.
+
+        .cajon.color-acento-contenido.p-4(data-aos="fade-left")
+          p.mb-0 Estos compuestos actúan en el organismo a nivel celular y metabólico, ayudando a prevenir diversas enfermedades crónicas y contribuyendo al bienestar general. Entre los principales tipos de sustancias bioactivas destacan:
+
+    .row.justify-content-center.align-items-center.z-2
+      .col-lg-10
+        .row.justify-content-center.z-2.mb-4.mb-lg-5
+          .col-md-7.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Desgaste de lóbulos")
+              .crd_hover_txt--body.p-4.color-primario
+                h3.text-center.text-white <em>Polifenoles</em>
+                p.text-center.text-white Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
+
+          .col-md-7.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/7.png", alt="frutas")
+              .crd_hover_txt--body.p-4.color-secundario
+                h3.text-center.text-white <em>Flavonoides</em>
+                p.text-center.text-white Un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
+
+          .col-md-7.col-lg-4.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left")
+              .crd_hover_txt--img
+                figure
+                  img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/8.png", alt="brocoli")
+              .crd_hover_txt--body.p-4.color-acento-contenido
+                h3.text-center <em>Glucosinolatos</em>
+                p.text-center Abundantes en vegetales como el brócoli, la col y la coliflor. Estos compuestos tienen potencial anticancerígeno y favorecen la desintoxicación del organismo.
+
+    p.mb-4 En las últimas décadas, el interés por los fitoquímicos ha crecido considerablemente gracias a los hallazgos científicos que demuestran sus efectos positivos a largo plazo. Entre los beneficios más estudiados se encuentran:
+
+
 
 </template>
 

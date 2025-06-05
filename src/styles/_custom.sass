@@ -85,6 +85,14 @@ figcaption
     position: absolute
     content: url('../assets/curso/temas/tema1/bg-2.png')
 
+  &--3::after
+    top: 50px
+    left: -60px
+    position: absolute
+    height: 100%
+    width: 1440px
+    background: linear-gradient(180deg,rgba(255, 206, 121, 0.01) 0%, rgba(115, 150, 74, 0.05) 30%, rgba(115, 150, 74, 0.05) 70%, rgba(255, 206, 121, 0.01) 100%)
+    content: ''
 .z-2
   position: relative
   z-index: 2
@@ -141,3 +149,39 @@ figcaption
 
   tr:nth-child(odd)
     background-color: #C7D5B6
+
+.crd_hover_txt 
+  position: relative
+  padding: 0
+  overflow: hidden
+  border-radius: 1px
+
+
+.crd_hover_txt:hover .crd_hover_txt--body 
+  transition: all .3s ease-in-out
+  transform: translateY(0)
+
+
+.crd_hover_txt 
+  overflow: hidden
+  border-radius: 12px
+  .crd_hover_txt--body 
+    position: absolute
+    padding: 18px 13px 30px
+    bottom: 0
+    transition: all .3s ease-in-out
+    transform: translateY(calc(100% - 65px))
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+      color: white
+    &.color-primario
+      background-color: $color-primario
+      color: white
+    &.color-secundario
+      background-color: $color-secundario
+      color: $color-fonts
+
+@media (min-width: 1200px) and (max-width:1400px) 
+  .crd_hover_txt .crd_hover_txt--body p 
+      font-size: 14px
+      line-height: 18px

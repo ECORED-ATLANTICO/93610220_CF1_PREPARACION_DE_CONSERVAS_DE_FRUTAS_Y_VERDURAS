@@ -141,8 +141,7 @@
                 td(colspan="2") Corresponden a la parte de la planta que cumple la función de reservar temporalmente las sustancias que esta necesita para su supervivencia tales como nutrientes y carbohidratos.
                 td Papa, camote.
 
-
-    .cajon.color-acento-contenido.p-4
+    .cajon.color-acento-contenido.p-4(data-aos="fade-left")
       p.mb-0 Esta clasificación permite aplicar tratamientos poscosecha específicos y elegir las mejores opciones para conservación y transformación.
 </template>
 
