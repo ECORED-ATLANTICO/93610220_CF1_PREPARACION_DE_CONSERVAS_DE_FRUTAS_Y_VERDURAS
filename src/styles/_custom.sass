@@ -69,3 +69,75 @@
 
 figcaption
   font-weight: normal
+
+.fullwith-bg
+  position: relative
+  z-index: 0
+  &--1::after
+    top: 50px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema1/bg-1.png')
+
+  &--2::after
+    top: -230px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema1/bg-2.png')
+
+.z-2
+  position: relative
+  z-index: 2
+
+.bg-color-secundario-s10
+  background-color: $color-secundario-s10 !important
+
+.checklist
+  padding-left: 20px
+  width: fit-content
+
+  li
+    position: relative
+    padding: 10px 20px
+    padding-left: 0
+    border-bottom: 1px dotted #AFAFAF
+
+    &:last-child
+      border-bottom: none
+    &::before
+      content: url('../assets/curso/temas/check-icon.svg')
+      position: absolute
+      left: -20px
+
+
+.tabs-c
+  &__header
+    margin-bottom: 0
+  &__content-item
+    background-color: #F7F7F7
+    padding: 40px
+
+.acordion-conservas
+  background-color: #F8F3DC
+  color: #12263F
+  &--borde
+    background-color: lighten($color-acento-contenido, 50%)
+    color: #12263F
+    border: solid 4px $color-acento-contenido
+
+  .acordion__accion__btn--a
+    background-color: #F9A545
+    color: #FFFFFF
+
+  &.acordion__activo
+    background-color: #E6F1E8
+
+    .acordion__accion__btn--a
+      background-color: #748578
+
+.conservas-table
+  tr:nth-child(even)
+    background-color: #E3EADA
+
+  tr:nth-child(odd)
+    background-color: #C7D5B6
