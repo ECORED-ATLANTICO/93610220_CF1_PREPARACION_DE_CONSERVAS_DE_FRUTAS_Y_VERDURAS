@@ -144,7 +144,7 @@
     .cajon.color-acento-contenido.p-4(data-aos="fade-left")
       p.mb-0 Esta clasificación permite aplicar tratamientos poscosecha específicos y elegir las mejores opciones para conservación y transformación.
 
-      
+
 </template>
 
 <script>

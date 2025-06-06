@@ -64,6 +64,9 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
+.banner-interno__fondo 
+  background-image: url('../assets/curso/banner-interno.png') !important
+
 .banner-interno__titulo__icono i
   color: $color-primario
 
@@ -92,6 +95,28 @@ figcaption
     height: 100%
     width: 1440px
     background: linear-gradient(180deg,rgba(255, 206, 121, 0.01) 0%, rgba(115, 150, 74, 0.05) 30%, rgba(115, 150, 74, 0.05) 70%, rgba(255, 206, 121, 0.01) 100%)
+    content: ''
+
+  &--4::after
+    top: 50px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema2/bg-1.png')
+
+  &--5::after
+    top: -20px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema2/bg-2.png')
+
+  &--6::after
+    top: 0px
+    left: -60px
+    position: absolute
+    height: 300px
+    width: 1440px
+    background: #FFFFFF
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 242, 219, 0.3) 100%)
     content: ''
 .z-2
   position: relative

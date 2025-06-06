@@ -116,7 +116,7 @@
                 td Se le puede encontrar en legumbres, frutos secos y semillas de girasol.
     
     Separador
-
+    .fullwith-bg.fullwith-bg--4
     #t_2_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.3 Sustancias bioactivas y fitoquímicos
 
@@ -160,9 +160,10 @@
                 h3.text-center <em>Glucosinolatos</em>
                 p.text-center Abundantes en vegetales como el brócoli, la col y la coliflor. Estos compuestos tienen potencial anticancerígeno y favorecen la desintoxicación del organismo.
 
-    p.mb-4 En las últimas décadas, el interés por los fitoquímicos ha crecido considerablemente gracias a los hallazgos científicos que demuestran sus efectos positivos a largo plazo. Entre los beneficios más estudiados se encuentran:
+    .fullwith-bg.fullwith-bg--5
+    p.mb-4.z-2 En las últimas décadas, el interés por los fitoquímicos ha crecido considerablemente gracias a los hallazgos científicos que demuestran sus efectos positivos a largo plazo. Entre los beneficios más estudiados se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         ul.checklist(data-aos="fade-right")
           li Eliminación de toxinas y sustancias nocivas del cuerpo.
@@ -176,7 +177,7 @@
 
     p.mb-4.mb-lg-5.text-center.fw-bold.z-2 Un ejemplo práctico de estas sustancias son los pigmentos naturales que dan color a frutas y verduras, los cuales también se clasifican según su función bioactiva:
 
-    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5.z-2
       .col-8.col-sm-6.col-lg-4
         figure
           img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/10.png', alt='Imagen decorativa')
@@ -227,6 +228,7 @@
       p.mb-0 El consumo variado y constante de frutas y verduras ricas en estos compuestos puede ser una estrategia natural y eficaz para promover una vida saludable y prevenir enfermedades crónicas.
 
     Separador
+    .fullwith-bg.fullwith-bg--6
 
     #t_2_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.4 Esteroles vegetales
@@ -277,7 +279,7 @@
             h5.text-center Antocianinas
             p.text-center Pigmentos que dan tonos rojos, púrpuras o azules. Actúan como antioxidantes potentes, protegiendo el sistema cardiovascular.
 
-    .cajon.color-primario.p-4(data-aos="fade-left")
+    .cajon.color-secundario.p-4(data-aos="fade-left")
       p.mb-0 Estos pigmentos no solo embellecen los alimentos, sino que protegen las células del daño oxidativo.
 
 </template>
