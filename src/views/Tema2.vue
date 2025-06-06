@@ -162,7 +162,123 @@
 
     p.mb-4 En las últimas décadas, el interés por los fitoquímicos ha crecido considerablemente gracias a los hallazgos científicos que demuestran sus efectos positivos a largo plazo. Entre los beneficios más estudiados se encuentran:
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-lg-8
+        ul.checklist(data-aos="fade-right")
+          li Eliminación de toxinas y sustancias nocivas del cuerpo.
+          li Neutralización de radicales libres, protegiendo las células del daño oxidativo.
+          li Regulación de la presión arterial y mejora en la coagulación de la sangre.
+          li Prevención de enfermedades cardiovasculares.
+          li Retraso en los signos del envejecimiento y reducción del riesgo de enfermedades asociadas a la edad.
+      .col-10.col-sm-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/9.png', alt='Imagen decorativa')
 
+    p.mb-4.mb-lg-5.text-center.fw-bold.z-2 Un ejemplo práctico de estas sustancias son los pigmentos naturales que dan color a frutas y verduras, los cuales también se clasifican según su función bioactiva:
+
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+      .col-8.col-sm-6.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/10.png', alt='Imagen decorativa')
+      .col-lg-8
+        AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
+          div(titulo="TERPENOS")
+            p Compuestos bioactivos con función antioxidante.
+            p.mb-0 <strong>Ejemplos</strong>
+            ul.ms-3.checklist(data-aos="fade-right")
+              li <strong>Betacaroteno</strong>: presente en zanahoria, calabaza y espinaca.
+              li <strong>Licopeno</strong>: abundante en tomate, sandía y guayaba.
+            p.mb-0 <strong>Colores característicos</strong>
+            ul.ms-3.checklist(data-aos="fade-right")
+              li Naranja, rojo y verde.
+            p.mb-0 <strong>Beneficios para la salud</strong>
+            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+              li Neutralizan radicales libres.
+              li Contribuyen a la salud ocular y cardiovascular.
+              li Previenen el envejecimiento celular.
+
+          div(titulo="FENOLES")
+            p Grupo de compuestos antioxidantes, entre ellos los flavonoides.
+            p.mb-0 <strong>Ejemplos</strong>
+            ul.ms-3.checklist(data-aos="fade-right")
+              li <strong>Flavonoides</strong> como antocianinas en arándanos, moras y uvas negras.
+            p.mb-0 <strong>Colores característicos</strong>
+            ul.ms-3.checklist(data-aos="fade-right")
+              li morado y azul oscuro.
+            p.mb-0 <strong>Beneficios para la salud</strong>
+            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+              li Protegen contra enfermedades cardiovasculares.
+              li Tienen efecto antiinflamatorio.
+              li Refuerzan el sistema inmunológico.
+
+          div(titulo="TIOLES Y LIGNANOS")
+            p Compuestos azufrados y polifenólicos con acción desintoxicante y antioxidante.
+            p.mb-0 <strong>Ejemplos</strong>
+            ul.ms-3.checklist(data-aos="fade-right")
+              li <strong>Tioles</strong>: presentes en cebolla, ajo, repollo y brócoli.
+              li <strong>Lignanos</strong>: en trigo integral, cebada, linaza entre otros.
+            p.mb-0 <strong>Beneficios para la salud</strong>
+            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+              li Eliminan toxinas del cuerpo.
+              li Favorecen la salud digestiva y hepática.
+              li Pueden contribuir a la prevención del cáncer.
+
+    .cajon.color-acento-contenido.p-4(data-aos="fade-left")
+      p.mb-0 El consumo variado y constante de frutas y verduras ricas en estos compuestos puede ser una estrategia natural y eficaz para promover una vida saludable y prevenir enfermedades crónicas.
+
+    Separador
+
+    #t_2_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 2.4 Esteroles vegetales
+
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+      .col-sm-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/11.png', alt='Imagen decorativa')
+      .col-lg-8
+        p Los esteroles vegetales son sustancias naturales que se encuentran en muchos alimentos de origen vegetal. Aunque no son colesterol, tienen una estructura parecida y cumplen funciones similares en el cuerpo: ayudan a formar algunas hormonas y a mantener las membranas de las células en buen estado.
+        p.mb-0 Su principal beneficio es que reducen la absorción del colesterol malo (LDL) en el intestino, lo que ayuda a proteger el corazón y los vasos sanguíneos.
+
+    Separador
+
+    #t_2_5(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
+      h3 2.5 Pigmentos naturales
+
+    figure
+      img.slyder-f__main.slyder-f__main(data-aos="fade-up")(src='@/assets/curso/temas/tema2/12.png', alt='Imagen decorativa')
+
+    p.text-center.fw-bold.z-2 Los pigmentos son compuestos que dan color y también cumplen funciones antioxidantes. Entre ellos se destacan:
+
+    .row.justify-content-center.align-items-center.px-3.py-5.mb-3.mb-lg-5.factores-slider
+      .col-sm-8.col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/13.png', alt='Imagen decorativa')
+
+      .col-lg-8.mb-3.mb-lg-0
+        SlyderF(columnas="col-lg-6")
+          .tarjeta.p-4.card-decoration.rounded-2
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema2/14.svg' alt='Icon decarativo')
+            h5.text-center Clorofilas
+            p.text-center Pigmento verde presente en vegetales de hoja. Ayuda a proteger las células del daño oxidativo y participa en procesos desintoxicantes. Presentes en espinaca y acelga.
+
+          .tarjeta.p-4.card-decoration.rounded-2
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema2/15.svg' alt='Icon decarativo')
+            h5.text-center Carotenoides
+            p.text-center Incluyen el betacaroteno, que se convierte en vitamina A. Están en alimentos naranjas y protegen la visión y la piel.
+
+          .tarjeta.p-4.card-decoration.rounded-2
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/tema2/16.svg' alt='Icon decarativo')
+            h5.text-center Antocianinas
+            p.text-center Pigmentos que dan tonos rojos, púrpuras o azules. Actúan como antioxidantes potentes, protegiendo el sistema cardiovascular.
+
+    .cajon.color-primario.p-4(data-aos="fade-left")
+      p.mb-0 Estos pigmentos no solo embellecen los alimentos, sino que protegen las células del daño oxidativo.
 
 </template>
 

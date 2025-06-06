@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Generalidades, ingredientes y aspectos higiénicos en la preparación de conservas'
