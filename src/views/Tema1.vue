@@ -7,7 +7,7 @@
         span 1
       h1 Generalidades de frutas y verduras
 
-    .fullwith-bg.fullwith-bg--1
+    .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2
       .col-10.col-sm-8.col-lg-5
         figure
@@ -89,7 +89,7 @@
               li <strong>No climatéricas</strong>: no maduran más tras la cosecha. <strong>Ejemplo</strong>: uva y piña
          
     Separador
-    .fullwith-bg.fullwith-bg--2.d-none.d-xl-block
+    .fullwidth-bg.fullwidth-bg--2.d-none.d-xl-block
     #t_1_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 1.3	Clasificación de verduras
 

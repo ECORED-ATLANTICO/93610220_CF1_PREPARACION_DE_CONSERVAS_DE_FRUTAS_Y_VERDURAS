@@ -20,7 +20,7 @@
     
     p.mb-4.mb-lg-5 Las vitaminas presentes en frutas y verduras cumplen funciones fundamentales en el organismo, ya que intervienen en una amplia variedad de procesos fisiológicos esenciales para el crecimiento, la regeneración celular, el metabolismo energético y el fortalecimiento del sistema inmunológico.
 
-    .row.justify-content-center.align-items-center.z-2.fullwith-bg.fullwith-bg--3.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.z-2.fullwidth-bg.fullwidth-bg--3.mb-4.mb-lg-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Gráfico 1. 
@@ -116,7 +116,7 @@
                 td Se le puede encontrar en legumbres, frutos secos y semillas de girasol.
     
     Separador
-    .fullwith-bg.fullwith-bg--4
+    .fullwidth-bg.fullwidth-bg--4
     #t_2_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.3 Sustancias bioactivas y fitoquímicos
 
@@ -138,29 +138,29 @@
               .crd_hover_txt--img
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Desgaste de lóbulos")
-              .crd_hover_txt--body.p-4.color-primario
-                h3.text-center.text-white <em>Polifenoles</em>
-                p.text-center.text-white Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
+              .crd_hover_txt--body.color-primario
+                h5.text-center.text-white <em>Polifenoles</em>
+                p.font-small.text-center.text-white Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/7.png", alt="frutas")
-              .crd_hover_txt--body.p-4.color-secundario
-                h3.text-center.text-white <em>Flavonoides</em>
-                p.text-center.text-white Un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
+              .crd_hover_txt--body.color-secundario
+                h5.text-center.text-white <em>Flavonoides</em>
+                p.font-small.text-center.text-white Un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/8.png", alt="brocoli")
-              .crd_hover_txt--body.p-4.color-acento-contenido
-                h3.text-center <em>Glucosinolatos</em>
-                p.text-center Abundantes en vegetales como el brócoli, la col y la coliflor. Estos compuestos tienen potencial anticancerígeno y favorecen la desintoxicación del organismo.
+              .crd_hover_txt--body.color-acento-contenido
+                h5.text-center <em>Glucosinolatos</em>
+                p.font-small.text-center Abundantes en vegetales como el brócoli, la col y la coliflor. Estos compuestos tienen potencial anticancerígeno y favorecen la desintoxicación del organismo.
 
-    .fullwith-bg.fullwith-bg--5
+    .fullwidth-bg.fullwidth-bg--5
     p.mb-4.z-2 En las últimas décadas, el interés por los fitoquímicos ha crecido considerablemente gracias a los hallazgos científicos que demuestran sus efectos positivos a largo plazo. Entre los beneficios más estudiados se encuentran:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
@@ -228,7 +228,7 @@
       p.mb-0 El consumo variado y constante de frutas y verduras ricas en estos compuestos puede ser una estrategia natural y eficaz para promover una vida saludable y prevenir enfermedades crónicas.
 
     Separador
-    .fullwith-bg.fullwith-bg--6
+    .fullwidth-bg.fullwidth-bg--6
 
     #t_2_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.4 Esteroles vegetales

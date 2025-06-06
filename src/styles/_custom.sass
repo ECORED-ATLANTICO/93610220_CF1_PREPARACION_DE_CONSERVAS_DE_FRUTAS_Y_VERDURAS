@@ -61,9 +61,6 @@
   width: 400px !important
   padding: 0 !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
 .banner-interno__fondo 
   background-image: url('../assets/curso/banner-interno.png') !important
 
@@ -73,7 +70,7 @@
 figcaption
   font-weight: normal
 
-.fullwith-bg
+.fullwidth-bg
   position: relative
   z-index: 0
   &--1::after
@@ -192,10 +189,10 @@ figcaption
   border-radius: 12px
   .crd_hover_txt--body 
     position: absolute
-    padding: 18px 13px 30px
+    padding: 15px 13px 30px
     bottom: 0
     transition: all .3s ease-in-out
-    transform: translateY(calc(100% - 65px))
+    transform: translateY(calc(100% - 50px))
     &.color-acento-contenido
       background-color: $color-acento-contenido
       color: white
@@ -235,7 +232,11 @@ figcaption
     .fa-chevron-right
       font-size: 20px
 
-
-
 .card-decoration
   background-color: #FAFAFA
+
+.font-small
+  font-size: 0.8em
+
+.accesibilidad
+  z-index: 100
