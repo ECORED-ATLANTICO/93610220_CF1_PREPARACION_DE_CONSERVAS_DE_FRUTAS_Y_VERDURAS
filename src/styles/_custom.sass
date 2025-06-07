@@ -115,6 +115,17 @@ figcaption
     background: #FFFFFF
     background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 242, 219, 0.3) 100%)
     content: ''
+
+  &--7::after
+    top: 70px
+    left: -60px
+    position: absolute
+    height: 405px
+    width: 1440px
+    background: #E4EBDC
+    background: linear-gradient(180deg,rgba(228, 235, 220, 0.53) 0%, rgba(255, 255, 255, 0.62) 100%)
+    content: ''
+
 .z-2
   position: relative
   z-index: 2
@@ -236,7 +247,62 @@ figcaption
   background-color: #FAFAFA
 
 .font-small
-  font-size: 0.8em
+  font-size: 14px
+
+.numbered-card
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+  border-radius: 20px
+  height: 100%
+    
+  &__number
+    position: absolute
+    top: 17px
+    left: 15px
+    font-size: 25px
+    font-weight: bold
+
+    &--yellow
+      color: #D8C157
+
+    &--green
+      color: #748578
+
+  &__img
+    width: 170px
+    height: 170px
+
+  &.color-amarillo-claro
+    background-color: #F8F3DC
+
+  &.color-verde-claro
+    background-color: #E3EADB
+
+.conservas-slyder
+  background-image: url('../assets/curso/temas/tema4/bg-slider.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    border: none
+    transition-delay: 0.1s
+    background-image: url('../assets/bullets/arrow-white.svg')
+    opacity: 0.9
+
+    &.hide
+      opacity: 0
+      pointer-events: none
+
+  .slyder-a__bullets__item
+    background-color: #AFC2DD
+    border: 1px solid #AFC2DD
+    opacity: 0.3
+  .slyder-a__bullets__item--active
+    opacity: 1
 
 .accesibilidad
   z-index: 100

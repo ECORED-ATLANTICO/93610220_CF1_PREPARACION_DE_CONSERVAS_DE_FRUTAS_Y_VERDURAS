@@ -247,9 +247,9 @@
       h3 2.5 Pigmentos naturales
 
     figure
-      img.slyder-f__main.slyder-f__main(data-aos="fade-up")(src='@/assets/curso/temas/tema2/12.png', alt='Imagen decorativa')
+      img.mb-4(data-aos="fade-up")(src='@/assets/curso/temas/tema2/12.png', alt='Imagen decorativa')
 
-    p.text-center.fw-bold.z-2 Los pigmentos son compuestos que dan color y también cumplen funciones antioxidantes. Entre ellos se destacan:
+    p.mb-4.text-center.fw-bold.z-2 Los pigmentos son compuestos que dan color y también cumplen funciones antioxidantes. Entre ellos se destacan:
 
     .row.justify-content-center.align-items-center.px-3.py-5.mb-3.mb-lg-5.factores-slider
       .col-sm-8.col-lg-4

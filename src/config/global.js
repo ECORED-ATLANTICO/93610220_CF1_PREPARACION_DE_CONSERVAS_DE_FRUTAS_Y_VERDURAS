@@ -45,13 +45,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Generalidades de frutas y verduras',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Diferencias entre frutas y verduras',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clasificación de frutas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Clasificación de verduras',
+            hash: 't_1_3',
           },
         ],
       },
@@ -59,14 +69,145 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Principales componentes de frutas y verduras',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Vitaminas y sus funciones',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Minerales esenciales',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Sustancias bioactivas y fitoquímicos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Esteroles vegetales',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Pigmentos naturales',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Cambios fisiológicos y mecanismos de alteración',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Cambios fisiológicos y metabólicos poscosecha',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Mecanismos de alteración de la calidad',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Factores que afectan la calidad de frutas y verduras',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Factores internos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Factores externos',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Alteraciones físicas, químicas y microbiológicas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Alteraciones físicas',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Alteraciones químicas',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Alteraciones microbiológicas',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Procesos de conservación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Métodos físicos',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Métodos químicos',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Métodos biotecnológicos',
+            hash: 't_6_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Aspectos higiénicos en la elaboración de conservas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Ingredientes básicos en conservas',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Materiales y equipos necesarios',
+            hash: 't_7_2',
+          },
+          {
+            numero: '7.3',
+            titulo: 'Buenas prácticas de higiene y manipulación',
+            hash: 't_7_3',
+          },
+          {
+            numero: '7.4',
+            titulo: 'Innovaciones en conservación',
+            hash: 't_7_4',
+          },
+        ],
       },
     ],
     subMenu: [
