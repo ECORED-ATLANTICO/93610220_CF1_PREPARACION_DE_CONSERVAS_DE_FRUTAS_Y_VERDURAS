@@ -257,21 +257,122 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',
+      referencia:
+        'Villar, L. (2010). Las mejores conservas. Editorial Integral.',
+      tipo: 'Libro',
+      link:
+        'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
+    },
+    {
+      tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',
+      referencia:
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (1993). Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos (Colección FAO: Capacitación N.º 17/2). Roma: FAO..',
+      tipo: 'Libro',
+      link: 'https://www.fao.org/4/t0073s/T0073S00.htm#Contents',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Betacarotenos',
+      significado:
+        'precursores de la vitamina A, presentes en alimentos como zanahoria y mango. Son esenciales para la visión, la piel y el sistema inmunológico.',
+    },
+    {
+      termino: 'Climatéricas',
+      significado:
+        'frutas que siguen madurando después de ser cosechadas, como el mango y la banana.',
+    },
+
+    {
+      termino: 'Esteroles',
+      significado:
+        "compuestos similares al colesterol que ayudan a reducir el colesterol LDL ('malo') en el cuerpo, favoreciendo la salud cardiovascular.",
+    },
+
+    {
+      termino: 'Fitoquímicos',
+      significado:
+        'compuestos naturales en frutas y verduras que no son nutrientes esenciales, pero sí beneficiosos para la salud, con propiedades preventivas.',
+    },
+
+    {
+      termino: 'Flavonoides',
+      significado:
+        'tipo de polifenol con propiedades antiinflamatorias y antioxidantes, que contribuyen a la prevención de enfermedades crónicas.',
+    },
+
+    {
+      termino: 'Frutas',
+      significado:
+        'productos vegetales que se desarrollan a partir del ovario de la flor, contienen semillas y suelen tener sabor dulce o ácido.',
+    },
+
+    {
+      termino: 'Minerales',
+      significado:
+        'micronutrientes inorgánicos esenciales para funciones como la formación de huesos, transporte de oxígeno y regulación del equilibrio hídrico.',
+    },
+
+    {
+      termino: 'Pigmentos',
+      significado:
+        'sustancias que dan color a frutas y verduras, como las clorofilas, carotenoides y antocianinas. Actúan como antioxidantes.',
+    },
+
+    {
+      termino: 'Polifenoles',
+      significado:
+        'fitoquímicos antioxidantes presentes en vegetales, que ayudan a prevenir enfermedades cardiovasculares y neurodegenerativas.',
+    },
+
+    {
+      termino: 'Verduras',
+      significado:
+        'partes comestibles de plantas que no son frutas (como hojas, tallos, raíces o flores), generalmente con sabor menos dulce.',
+    },
+
+    {
+      termino: 'Vitamina C',
+      significado:
+        'antioxidante presente en cítricos. Fortalece el sistema inmunológico, mejora la absorción del hierro y protege frente a infecciones.',
+    },
+
+    {
+      termino: 'Vitaminas',
+      significado:
+        'nutrientes esenciales presentes en frutas y verduras, importantes para el sistema inmune, la piel, la visión y el metabolismo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Zapata, S., & Gómez, L. (2015). Sustancias bioactivas en los alimentos y su función en la salud humana. Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
+      link: '',
+    },
+    {
+      referencia:
+        'FAO. (2012). Pérdidas y desperdicio de alimentos en el mundo. Roma: Organización de las Naciones Unidas para la Agricultura y la Alimentación.',
+      link: '',
+    },
+    {
+      referencia:
+        'INTA. (2018). Manual de conservación de frutas y hortalizas. Instituto Nacional de Tecnología Agropecuaria.',
+      link: '',
+    },
+    {
+      referencia:
+        'González, A., & Pardo, A. (2018). Microorganismos beneficiosos en la conservación de alimentos vegetales. Revista Colombiana de Ciencia y Tecnología de Alimentos, 12(2), 45–52.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zapata, S., & Gómez, L. (2015). Componentes funcionales en frutas y verduras frescas. Editorial Académica Española.',
+      link: '',
+    },
+    {
+      referencia:
+        'ZFAO. (2016). Manejo postcosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
       link: '',
     },
   ],
@@ -280,14 +381,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -295,9 +397,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ángela Viviana Páez Perilla',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Jairo Valencia Ebratt',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -305,19 +412,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <i>full stack junior</i>',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carmen Alicia Martinez Torres',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -325,14 +432,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Maria Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adie Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
