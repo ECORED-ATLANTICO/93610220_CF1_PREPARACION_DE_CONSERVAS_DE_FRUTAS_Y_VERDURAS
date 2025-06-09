@@ -337,5 +337,40 @@ figcaption
     border-radius: 10px
     top: -24px
 
+.icon-title
+  position: relative
+  width: fit-content
+  padding: 10px 20px
+  padding-left: 70px
+  background-color: $color-secundario-s20
+  border-radius: 10px
+  margin-left: 15px
+  &::before
+    content: ''
+    position: absolute
+    left: -15px
+    top: 50%
+    transform: translateY(-50%)
+
+  &--icon-1
+    &::before
+      content: url('../assets/curso/temas/tema7/4.png')
+
+
+  &--icon-2
+    &::before
+      content: url('../assets/curso/temas/tema7/6.png')
+
+
+  &--icon-3
+    &::before
+      content: url('../assets/curso/temas/tema7/8.png')
+  
+.title-with-bg
+  padding: 10px 20px
+  width: fit-content
+  background-color: $color-acento-contenido-ac20
+  border-radius: 10px
+
 .accesibilidad
   z-index: 100

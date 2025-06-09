@@ -57,6 +57,43 @@
 
     p.mb-4.mb-lg-5 La selección adecuada de materiales y equipos es fundamental para garantizar la calidad, seguridad y eficiencia en la producción de conservas y otros productos enlatados. En esta sección, se detallan los tipos de envases, tecnologías e innovaciones que optimizan el proceso de conservación, asegurando productos seguros, duraderos y sostenibles.
 
+    .fullwidth-bg.fullwidth-bg--8
+    h3.icon-title.icon-title--icon-1.mb-5(data-aos="flip-up") Selección  y manejo de envases
+
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+      .col-lg-8
+        h3.title-with-bg Envases de vidrio templado
+        p.mb-4 Los envases de vidrio templado son ideales para conservas debido a su resistencia térmica y química. Antes de su uso, deben ser inspeccionados visualmente para evitar grietas o defectos que puedan comprometer la seguridad del producto.
+        h3.title-with-bg Tapas herméticas
+        p.mb-4 Las tapas tipo <em>Twist-Off</em> son necesarias para garantizar el vacío adecuado en el envase. Se deben reemplazar en cada uso para asegurar la seguridad del producto final.
+      .col-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/temas/tema7/5.png" alt="Imagen decorativa")
+
+    h3.icon-title.icon-title--icon-2.mb-5(data-aos="flip-up") Tecnología para pequeñas producciones
+
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+      .col-8.col-lg-4
+        figure
+          img.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/temas/tema7/7.png" alt="Imagen decorativa")
+      .col-lg-8
+        h3.title-with-bg Autoclaves domésticas
+        p.mb-4 Utilizados en producciones de pequeña escala, las autoclaves permiten alcanzar temperaturas de 121 °C, esenciales para eliminar esporas bacterianas, especialmente en conservas de baja acidez.
+        h3.title-with-bg Termométros digitales
+        p.mb-4 Durante el llenado en caliente, es crucial usar termómetros digitales para asegurar que los alimentos alcancen temperaturas superiores a 85°C, lo que previene la contaminación y asegura el sellado adecuado.
+
+    h3.icon-title.icon-title--icon-3.mb-5(data-aos="flip-up") Innovaciones en envases y conservación
+
+    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+      .col-lg-8
+        h3.title-with-bg Envasado al vacío
+        p.mb-4 El envasado en bolsas especiales es cada vez más popular para productos como vegetales cocidos. Este método reduce la exposición al oxígeno y extiende la vida útil del producto sin necesidad de refrigeración.
+        h3.title-with-bg Envases compostables o biodegradables
+        p.mb-4 Los envases ecológicos están alineados con las tendencias sostenibles, pero deben ser validados para garantizar su compatibilidad con tratamientos térmicos y el mantenimiento del vacío.
+      .col-8.col-lg-4
+        figure
+          img(data-aos="fade-up")(src="@/assets/curso/temas/tema7/9.png" alt="Imagen decorativa")
+
     Separador
 
     #t_7_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
