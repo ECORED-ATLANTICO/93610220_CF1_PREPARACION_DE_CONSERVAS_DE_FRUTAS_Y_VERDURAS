@@ -87,7 +87,7 @@
         .row.align-items-center.justify-content-center
           .col-10.col-sm-8.col-lg-4
             figure
-              img(data-aos="fade-left")(src='@/assets/curso/temas/tema6/7.png', alt='Fermentación')
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema6/7.png', alt='Fermentación')
 
           .col-lg-8.mb-4.mb-md-0
             h4 Fermentación
@@ -98,7 +98,7 @@
         .row.align-items-center.justify-content-center
           .col-10.col-sm-8.col-lg-4
             figure
-              img(data-aos="fade-left")(src='@/assets/curso/temas/tema6/8.png', alt='Aplicación de Microorganismos Benéficos')
+              img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema6/8.png', alt='Aplicación de Microorganismos Benéficos')
         
           .col-lg-8.mb-4.mb-md-0
             h4 Aplicación de Microorganismos Benéficos

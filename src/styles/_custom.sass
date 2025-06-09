@@ -143,6 +143,9 @@ figcaption
 .bg-color-secundario-s10
   background-color: $color-secundario-s10
 
+.bg-color-acento-contenido-ac10
+  background-color: #F8F3DC
+
 .checklist
   padding-left: 20px
   width: fit-content
@@ -159,6 +162,11 @@ figcaption
       content: url('../assets/curso/temas/check-icon.svg')
       position: absolute
       left: -20px
+
+  &--orange
+    li
+      &::before
+        content: url('../assets/curso/temas/check-icon-orange.svg')
 
 
 .tabs-c
@@ -316,6 +324,18 @@ figcaption
 
 .tabs-a__tab
   padding: 10px
+
+.innovation-info
+  position: relative
+  &__title
+    position: absolute
+    font-size: 18px
+    font-weight: bold
+    color: white
+    background-color: #73964A
+    padding: 13px 17px 11px
+    border-radius: 10px
+    top: -24px
 
 .accesibilidad
   z-index: 100
