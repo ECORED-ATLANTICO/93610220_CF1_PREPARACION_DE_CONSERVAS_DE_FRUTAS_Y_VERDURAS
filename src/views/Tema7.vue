@@ -99,7 +99,7 @@
     #t_7_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 7.3 Buenas prácticas de higiene y manipulación
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4.mb-lg-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/10.jpg')})`}"
       )

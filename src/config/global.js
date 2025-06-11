@@ -260,9 +260,8 @@ export default {
       tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',
       referencia:
         'Villar, L. (2010). Las mejores conservas. Editorial Integral.',
-      tipo: 'Libro',
-      link:
-        'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
+      tipo: 'PDF',
+      descarga: '/downloads/libro-de-las-conservas.pdf',
     },
     {
       tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',

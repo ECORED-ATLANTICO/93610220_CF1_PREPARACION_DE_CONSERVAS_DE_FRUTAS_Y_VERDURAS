@@ -60,13 +60,17 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important
   padding: 0 !important
+  align-self: end
 
 .banner-interno__fondo 
   background-image: url('../assets/curso/banner-interno.png') !important
+  background-size: initial
 
-.banner-interno__titulo__icono i
-  color: $color-primario
-
+.banner-interno__titulo
+  &__icono i
+    color: $color-fonts
+  h2
+    color: $color-fonts
 figcaption
   font-weight: normal
 
@@ -201,24 +205,16 @@ figcaption
   tr:nth-child(odd)
     background-color: #C7D5B6
 
-.crd_hover_txt 
-  position: relative
-  padding: 0
-  overflow: hidden
-  border-radius: 1px
-
-
 .crd_hover_txt:hover .crd_hover_txt--body 
   transition: all .3s ease-in-out
   transform: translateY(0)
-
 
 .crd_hover_txt 
   overflow: hidden
   border-radius: 12px
   .crd_hover_txt--body 
     position: absolute
-    padding: 15px 13px 30px
+    padding: 15px 13px 12px
     bottom: 0
     transition: all .3s ease-in-out
     transform: translateY(calc(100% - 50px))
@@ -231,6 +227,11 @@ figcaption
     &.color-secundario
       background-color: $color-secundario
       color: $color-fonts
+    
+@media (min-width: 1200px)
+  .crd_hover_txt
+    .crd_hover_txt--body 
+      padding-bottom: 30px
 
 @media (min-width: 1200px) and (max-width:1400px) 
   .crd_hover_txt .crd_hover_txt--body p 
@@ -288,15 +289,15 @@ figcaption
     &--green
       color: #748578
 
-  &__img
-    width: 170px
-    height: 170px
+.numbered-card__img
+  width: 170px
+  height: 170px
 
-  &.color-amarillo-claro
-    background-color: #F8F3DC
+.color-amarillo-claro
+  background-color: #F8F3DC
 
-  &.color-verde-claro
-    background-color: #E3EADB
+.color-verde-claro
+  background-color: #E3EADB
 
 .conservas-slyder
   background-image: url('../assets/curso/temas/tema4/bg-slider.png')

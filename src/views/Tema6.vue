@@ -53,22 +53,21 @@
         p.mb-0 La conservación de frutas y verduras es fundamental para prolongar su vida útil, mantener sus propiedades nutricionales y organolépticas, y reducir las pérdidas durante su almacenamiento y transporte. Los métodos químicos son una opción eficaz para controlar el deterioro, utilizando sustancias naturales o recubrimientos que inhiben el crecimiento microbiano y la oxidación, mejorando la calidad del producto a lo largo del tiempo. A continuación, se presentan los principales métodos químicos utilizados en la conservación de estos productos.
 
     .fullwidth-bg.fullwidth-bg--2.d-none.d-lg-block
-    .row.justify-content-start.align-items-stretch.z-2
-      .col-sm-6
-        .numbered-card.p-4.color-amarillo-claro(data-aos="flip-left")
-          .numbered-card__img.mb-4
-            figure
-              img(src="@/assets/curso/temas/tema6/4.png" alt="Imagen de factores internos")
-          h5.numbered-card__title Uso de conservantes naturales
-          p.text-center.font-small Se utilizan compuestos como el ácido cítrico o ácido ascórbico, los cuales actúan inhibiendo las enzimas responsables de la oxidación y el deterioro de las frutas y verduras. Estos conservantes naturales ayudan a prolongar la frescura y mantener las características organolépticas del producto, como el sabor y el color.
-      .col-sm-6
-        .numbered-card.p-4.color-verde-claro(data-aos="flip-right")
-          .numbered-card__img.mb-4
-            figure
-              img(src="@/assets/curso/temas/tema6/5.png" alt="Imagen de factores internos")
-          h5.numbered-card__title Recubrimientos comestibles
-          p.text-center.font-small Se aplican capas delgadas de materiales naturales, como ceras comestibles o películas de quitosano, que forman una barrera protectora sobre la superficie de las frutas y verduras. Esto reduce la pérdida de agua y limita la entrada de oxígeno, lo que ayuda a mantener la textura, frescura y calidad del producto durante más tiempo.
-
+    .tarjeta--container.row.mb-5.z-2
+      .col-md.tarjeta.p-5.color-amarillo-claro(data-aos="flip-left")
+        .row.justify-content-center.mb-4
+          figure
+            img.numbered-card__img.mx-auto(src="@/assets/curso/temas/tema6/4.png" alt="Imagen de factores internos")
+        h5.text-center Uso de conservantes naturales
+        p.text-center.font-small Se utilizan compuestos como el ácido cítrico o ácido ascórbico, los cuales actúan inhibiendo las enzimas responsables de la oxidación y el deterioro de las frutas y verduras. Estos conservantes naturales ayudan a prolongar la frescura y mantener las características organolépticas del producto, como el sabor y el color.
+      
+      .col-md.tarjeta.p-5.color-verde-claro(data-aos="flip-right")
+        .row.justify-content-center.mb-4
+          figure
+            img.numbered-card__img.mx-auto(src='@/assets/curso/temas/tema6/5.png', alt='Texto que describa la imagen')
+        h5.text-center Recubrimientos comestibles
+        p.text-center.font-small Se aplican capas delgadas de materiales naturales, como ceras comestibles o películas de quitosano, que forman una barrera protectora sobre la superficie de las frutas y verduras. Esto reduce la pérdida de agua y limita la entrada de oxígeno, lo que ayuda a mantener la textura, frescura y calidad del producto durante más tiempo.
+      
     Separador
 
     #t_6_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2

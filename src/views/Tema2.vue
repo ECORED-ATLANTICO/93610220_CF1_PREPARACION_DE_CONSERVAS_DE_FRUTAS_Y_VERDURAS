@@ -26,7 +26,7 @@
           h5 Gráfico 1. 
           span Vitaminas en las frutas y verduras 
         figure
-          img.mb-4.mb-lg-0.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
+          img.mb-4.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
           figcaption <strong>Nota</strong>: SENA (2024)
 
     p.mb-4.mb-lg-5 Debido a su origen natural, estas vitaminas se encuentran en formas fácilmente asimilables por el cuerpo, lo que potencia sus efectos beneficiosos. Su presencia en la dieta diaria es clave para mantener un estado de salud óptimo y prevenir diversas deficiencias nutricionales. Entre las más destacadas por su abundancia y acción específica en estos alimentos se encuentran:
@@ -131,7 +131,7 @@
           p.mb-0 Estos compuestos actúan en el organismo a nivel celular y metabólico, ayudando a prevenir diversas enfermedades crónicas y contribuyendo al bienestar general. Entre los principales tipos de sustancias bioactivas destacan:
 
     .row.justify-content-center.align-items-center.z-2
-      .col-lg-10
+      .col-xl-10
         .row.justify-content-center.z-2.mb-4.mb-lg-5
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")
@@ -140,7 +140,7 @@
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Desgaste de lóbulos")
               .crd_hover_txt--body.color-primario
                 h5.text-center.text-white <em>Polifenoles</em>
-                p.font-small.text-center.text-white Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
+                p.font-small.text-center.text-white.mb-0 Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")

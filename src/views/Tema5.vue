@@ -9,11 +9,13 @@
 
     .fullwidth-bg.fullwidth-bg--8.d-none.d-lg-block
     .row.justify-content-center.align-items-stretch.z-2
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
+      .col-md-6.col-xl-4.mb-4.mb-xl-0
         figure
           img.mb-4(data-aos="fade-up")(src="@/assets/curso/temas/tema5/1.png" alt="Imagen decorativa")
-      .col-lg-8
-        p Las frutas y verduras están expuestas a diversos tipos de alteraciones durante la cosecha, el transporte, el almacenamiento y la comercialización. Estas alteraciones afectan su calidad visual, sensorial y sanitaria, y se clasifican en tres grandes grupos: físicas, químicas y microbiológicas.
+      .col-xl-8
+        p.mb-0 Las frutas y verduras están expuestas a diversos tipos de alteraciones durante la cosecha, el transporte, el almacenamiento y la comercialización. Estas alteraciones afectan su calidad visual, sensorial y sanitaria, y se clasifican en tres grandes grupos: físicas, químicas y microbiológicas.
+
+        Separador    
 
         #t_5_1(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
           h3 5.1 Alteraciones físicas
@@ -52,7 +54,7 @@
 
     p.mb-4.mb-lg-5 Son causadas por la acción de microorganismos como bacterias, hongos y levaduras, que se desarrollan en condiciones de humedad y temperatura favorables. Estas alteraciones representan un riesgo para la inocuidad y generan importantes pérdidas económicas.
 
-    .row.justify-content-start.align-items-stretch.z-2
+    .row.justify-content-center.align-items-stretch.z-2
       .col-sm-6.col-lg-4.mb-4.mb-xl-0
         .numbered-card.p-4.color-verde-claro(data-aos="flip-left")
           .numbered-card__img.mb-4
