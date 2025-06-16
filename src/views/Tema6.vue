@@ -26,7 +26,7 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
           div(titulo="Refrigeración")
-            p Disminuye la velocidad de respiración y el desarrollo microbiano. Se recomienda mantener temperaturas entre 0°C y 10°C.
+            p Disminuye la velocidad de respiración y el desarrollo microbiano. Se recomienda mantener temperaturas entre 0 °C y 10 °C.
 
           div(titulo="Congelación")
             p Detiene la actividad microbiana y enzimática, permitiendo una conservación prolongada.

@@ -61,7 +61,7 @@
                   img(src="@/assets/curso/temas/tema3/5.png", alt="Alteraciones fisiológicas en tomates")
               .crd_hover_txt--body.px-1.color-primario
                 h5.text-center.text-white <em>Alteraciones fisiológicas</em>
-                p.text-center.text-white.font-small.mb-0 Ocurren cuando se alteran los procesos bioquímicos internos del producto. Uno de los casos más comunes es la acumulación excesiva de etileno, una hormona natural que regula la maduración. En exceso, acelera el proceso de sobremaduración, llevando al ablandamiento y, finalmente, a la pudrición. Esto es típico en frutas climatéricas como el mango, el aguacate y el tomate. Se manifiestan como maduración acelerada, cambio de color o desarrollo de olores fuertes.
+                p.text-center.text-white.font-small.mb-0 Estas alteraciones son reacciones del producto frente a condiciones ambientales adversas. Por ejemplo, temperaturas muy bajas pueden provocar daños por frío, como el oscurecimiento de la cáscara en bananas o la aparición de manchas acuosas en tomates. También, una alta humedad puede acelerar la pérdida de firmeza en verduras de hoja, como la lechuga, debido a la absorción excesiva de agua. Son visibles como cambios físicos: manchas, deshidratación o textura blanda.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")
@@ -70,7 +70,7 @@
                   img(src="@/assets/curso/temas/tema3/6.png", alt="Alteraciones metabólicas")
               .crd_hover_txt--body.px-1.color-secundario
                 h5.text-center.text-white <em>Alteraciones metabólicas</em>
-                p.text-center.text-white.font-small.mb-0 Estas alteraciones son reacciones del producto frente a condiciones ambientales adversas. Por ejemplo, temperaturas muy bajas pueden provocar daños por frío, como el oscurecimiento de la cáscara en bananas o la aparición de manchas acuosas en tomates. También, una alta humedad puede acelerar la pérdida de firmeza en verduras de hoja, como la lechuga, debido a la absorción excesiva de agua. Son visibles como cambios físicos: manchas, deshidratación o textura blanda.
+                p.text-center.text-white.font-small.mb-0 Ocurren cuando se alteran los procesos bioquímicos internos del producto. Uno de los casos más comunes es la acumulación excesiva de etileno, una hormona natural que regula la maduración. En exceso, acelera el proceso de sobremaduración, llevando al ablandamiento y, finalmente, a la pudrición. Esto es típico en frutas climatéricas como el mango, el aguacate y el tomate. Se manifiestan como maduración acelerada, cambio de color o desarrollo de olores fuertes.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")

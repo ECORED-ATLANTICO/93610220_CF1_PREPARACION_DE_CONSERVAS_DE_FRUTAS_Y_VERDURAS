@@ -80,7 +80,7 @@
         h3.title-with-bg Autoclaves domésticas
         p.mb-4 Utilizados en producciones de pequeña escala, las autoclaves permiten alcanzar temperaturas de 121 °C, esenciales para eliminar esporas bacterianas, especialmente en conservas de baja acidez.
         h3.title-with-bg Termométros digitales
-        p.mb-4 Durante el llenado en caliente, es crucial usar termómetros digitales para asegurar que los alimentos alcancen temperaturas superiores a 85°C, lo que previene la contaminación y asegura el sellado adecuado.
+        p.mb-4 Durante el llenado en caliente, es crucial usar termómetros digitales para asegurar que los alimentos alcancen temperaturas superiores a 85 °C, lo que previene la contaminación y asegura el sellado adecuado.
 
     h3.icon-title.icon-title--icon-3.mb-5(data-aos="flip-up") Innovaciones en envases y conservación
 
@@ -113,12 +113,14 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
           div(titulo="Limpieza de materias primas")
+            h5.ms-4 Higienización en dos fases
             ul.checklist.checklist--orange.ms-4
               li <strong>Fase 1: lavado inicial</strong>: inmersión de frutas y hortalizas en agua con bicarbonato de sodio (1 cucharada por litro) para eliminar suciedad y residuos superficiales.
               li <strong>Fase 2: desinfección secundaria</strong>: aplicación de solución de hipoclorito de sodio a 50 ppm durante mínimo 5 minutos. Posteriormente, enjuague con agua potable para remover restos químicos.
               li <strong>Objetivo</strong>: reducir carga microbiana inicial y eliminar agentes contaminantes sin afectar la calidad sensorial.
 
           div(titulo="Limpieza de equipos e instalaciones")
+            h5.ms-4 Sistema CIP (Clean-In-Place)
             p.ms-4.mb-0 <strong>Etapa 1</strong>: enjuague preliminar.
             p.ms-4.mb-0 <strong>Etapa 2</strong>: limpieza con soluciones alcalinas.
             p.ms-4.mb-0 <strong>Etapa 3</strong>: limpieza ácida (remoción de residuos minerales).
@@ -130,6 +132,7 @@
 
 
           div(titulo="Control microbiológico")
+            h5.ms-4 Verificación de parámetros críticos
             ul.checklist.checklist--orange.ms-4
               li <strong>Medición de pH y aₓ (actividad de agua)</strong>: uso de tiras reactivas o sensores digitales. Para mermeladas y productos similares, la actividad de agua debe ser ≤ 0.85.
               li <strong>Detección rápida de contaminantes</strong>: uso de microscopios portátiles para identificar precozmente hongos filamentosos o contaminaciones superficiales.
@@ -137,6 +140,7 @@
 
 
           div(titulo="Manejo de alérgenos")
+            h5.ms-4 Prevención y rotulación clara
             ul.checklist.checklist--orange.ms-4
               li <strong>Separación física de líneas de producción</strong>: evita la contaminación cruzada entre productos con y sin alérgenos (gluten, lácteos y frutos secos).
               li <strong>Etiquetado responsable</strong>: inclusión de leyendas como “Puede contener…” o “Elaborado en instalaciones que también procesan…”, conforme a normativas nacionales e internacionales.

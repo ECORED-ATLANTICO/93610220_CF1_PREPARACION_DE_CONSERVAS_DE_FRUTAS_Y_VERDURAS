@@ -73,20 +73,20 @@
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
           div(titulo="Por tipo de fruto")
-            p las frutas pueden clasificarse por la estructura de su fruto, es decir, si tienen pulpa jugosa o si son secas con bajo contenido de agua.
+            p Las frutas pueden clasificarse por la estructura de su fruto, es decir, si tienen pulpa jugosa o si son secas con bajo contenido de agua.
             ul.checklist.ms-4
-              li <strong>Carnosas</strong>: tienen pulpa jugosa. <strong>Ejemplo</strong>: melón, sandía, mango entre otros
+              li <strong>Carnosas</strong>: tienen pulpa jugosa. <strong>Ejemplo</strong>: melón, sandía, mango entre otros.
               li <strong>Secas</strong>: presentan poco o nula cantidad de agua. <strong>Ejemplo</strong>: nueces y almendras.
           div(titulo="Por clima de cultivo")
-            p el tipo de fruta también depende del clima donde se desarrolla. Se clasifican en tropicales y templadas, según la temperatura y altitud.
+            p El tipo de fruta también depende del clima donde se desarrolla. Se clasifican en tropicales y templadas, según la temperatura y altitud.
             ul.checklist.ms-4
               li <strong>Tropicales</strong>: requieren clima cálido. <strong>Ejemplo</strong>: papaya y guayaba.
               li <strong>Templadas</strong>: se cultivan en climas moderados y estaciones marcadas. <strong>Ejemplo</strong>: manzana y pera.
           div(titulo="Por comportamiento respiratorio")
-            p las frutas se clasifican según si continúan madurando o no después de la cosecha. Este criterio es clave para el almacenamiento y conservación.
+            p Las frutas se clasifican según si continúan madurando o no después de la cosecha. Este criterio es clave para el almacenamiento y conservación.
             ul.checklist.ms-4
               li <strong>Climatéricas</strong>: continúan madurando después de cosechadas. <strong>Ejemplo</strong>: banana y mango.
-              li <strong>No climatéricas</strong>: no maduran más tras la cosecha. <strong>Ejemplo</strong>: uva y piña
+              li <strong>No climatéricas</strong>: no maduran más tras la cosecha. <strong>Ejemplo</strong>: uva y piña.
          
     Separador
     .fullwidth-bg.fullwidth-bg--2.d-none.d-xl-block
@@ -101,7 +101,7 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 1. 
-          span Clasificación de las frutas
+          span Clasificación de frutas
         
         .tabla-a.color-acento-contenido.mb-2
           table.conservas-table

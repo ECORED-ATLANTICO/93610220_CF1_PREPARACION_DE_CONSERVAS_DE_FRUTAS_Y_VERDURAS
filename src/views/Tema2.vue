@@ -186,14 +186,14 @@
           div(titulo="TERPENOS")
             p Compuestos bioactivos con función antioxidante.
             p.mb-0 <strong>Ejemplos</strong>
-            ul.ms-3.checklist(data-aos="fade-right")
+            ul.ms-3.checklist
               li <strong>Betacaroteno</strong>: presente en zanahoria, calabaza y espinaca.
               li <strong>Licopeno</strong>: abundante en tomate, sandía y guayaba.
             p.mb-0 <strong>Colores característicos</strong>
-            ul.ms-3.checklist(data-aos="fade-right")
+            ul.ms-3.checklist
               li Naranja, rojo y verde.
             p.mb-0 <strong>Beneficios para la salud</strong>
-            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+            ul.ms-3.checklist.mb-0
               li Neutralizan radicales libres.
               li Contribuyen a la salud ocular y cardiovascular.
               li Previenen el envejecimiento celular.
@@ -201,13 +201,13 @@
           div(titulo="FENOLES")
             p Grupo de compuestos antioxidantes, entre ellos los flavonoides.
             p.mb-0 <strong>Ejemplos</strong>
-            ul.ms-3.checklist(data-aos="fade-right")
+            ul.ms-3.checklist
               li <strong>Flavonoides</strong> como antocianinas en arándanos, moras y uvas negras.
             p.mb-0 <strong>Colores característicos</strong>
-            ul.ms-3.checklist(data-aos="fade-right")
+            ul.ms-3.checklist
               li morado y azul oscuro.
             p.mb-0 <strong>Beneficios para la salud</strong>
-            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+            ul.ms-3.checklist.mb-0
               li Protegen contra enfermedades cardiovasculares.
               li Tienen efecto antiinflamatorio.
               li Refuerzan el sistema inmunológico.
@@ -215,11 +215,11 @@
           div(titulo="TIOLES Y LIGNANOS")
             p Compuestos azufrados y polifenólicos con acción desintoxicante y antioxidante.
             p.mb-0 <strong>Ejemplos</strong>
-            ul.ms-3.checklist(data-aos="fade-right")
+            ul.ms-3.checklist
               li <strong>Tioles</strong>: presentes en cebolla, ajo, repollo y brócoli.
               li <strong>Lignanos</strong>: en trigo integral, cebada, linaza entre otros.
             p.mb-0 <strong>Beneficios para la salud</strong>
-            ul.ms-3.checklist.mb-0(data-aos="fade-right")
+            ul.ms-3.checklist.mb-0
               li Eliminan toxinas del cuerpo.
               li Favorecen la salud digestiva y hepática.
               li Pueden contribuir a la prevención del cáncer.

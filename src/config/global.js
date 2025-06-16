@@ -401,8 +401,8 @@ export default {
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
-          nombre: 'Jairo Valencia Ebratt',
-          cargo: 'Evaluador instruccional',
+          nombre: 'Heydy Cristina Gonzalez Garcia',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
