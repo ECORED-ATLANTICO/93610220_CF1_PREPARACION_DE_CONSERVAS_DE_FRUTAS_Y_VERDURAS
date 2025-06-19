@@ -264,7 +264,8 @@ export default {
       descarga: '/downloads/libro-de-las-conservas.pdf',
     },
     {
-      tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',
+      tema:
+        'Prevención de pérdidas de alimentos poscosechas: frutas, hortalizas, raíces y tubérculos.',
       referencia:
         'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (1993). Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos (Colección FAO: Capacitación N.º 17/2). Roma: FAO..',
       tipo: 'Libro',
@@ -347,12 +348,13 @@ export default {
     {
       referencia:
         'Zapata, S., & Gómez, L. (2015). Sustancias bioactivas en los alimentos y su función en la salud humana. Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
-      link: '',
+      link:
+        'https://www.academia.edu/32156732/SUSTANCIAS_BIOACTIVAS_EN_LOS_ALIMENTOS',
     },
     {
       referencia:
-        'FAO. (2012). Pérdidas y desperdicio de alimentos en el mundo. Roma: Organización de las Naciones Unidas para la Agricultura y la Alimentación.',
-      link: '',
+        'FAO. (2012). <em>Pérdidas y desperdicio de alimentos en el mundo</em>. Roma: Organización de las Naciones Unidas para la Agricultura y la Alimentación.',
+      link: 'https://www.fao.org/4/i2697s/i2697s.pdf',
     },
     {
       referencia:
@@ -362,7 +364,8 @@ export default {
     {
       referencia:
         'González, A., & Pardo, A. (2018). Microorganismos beneficiosos en la conservación de alimentos vegetales. Revista Colombiana de Ciencia y Tecnología de Alimentos, 12(2), 45–52.',
-      link: '',
+      link:
+        'https://www.argentina.gob.ar/sites/default/files/2023/08/inta_manual_de_recetas_para_elaborar_conservas_2018.pdf',
     },
     {
       referencia:
@@ -371,8 +374,8 @@ export default {
     },
     {
       referencia:
-        'ZFAO. (2016). Manejo postcosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
-      link: '',
+        'ZFAO. (2016). Manejo poscosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
+      link: 'https://www.fao.org/4/x5056s/x5056s00.htm',
     },
   ],
   creditos: [

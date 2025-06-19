@@ -23,11 +23,11 @@
     .row.justify-content-center.align-items-center.z-2.fullwidth-bg.fullwidth-bg--3.mb-4.mb-lg-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Gráfico 1. 
+          h5 Figura 1. 
           span Vitaminas en las frutas y verduras 
         figure
           img.mb-4.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
-          figcaption <strong>Nota</strong>: SENA (2024)
+          figcaption <strong>Fuente</strong>: SENA, 2025
 
     p.mb-4.mb-lg-5 Debido a su origen natural, estas vitaminas se encuentran en formas fácilmente asimilables por el cuerpo, lo que potencia sus efectos beneficiosos. Su presencia en la dieta diaria es clave para mantener un estado de salud óptimo y prevenir diversas deficiencias nutricionales. Entre las más destacadas por su abundancia y acción específica en estos alimentos se encuentran:
 
@@ -59,63 +59,85 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/4.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los minerales son nutrientes inorgánicos muy importantes para los sistemas del cuerpo humano, hacen parte de los órganos y elementos internos de este. Se adquieren a través de la ingesta de una gran serie de alimentos como las frutas y verduras. Los minerales contribuyen en la salud de los seres humanos, manteniendo el funcionando correctamente a las células de todos los órganos de del cuerpo, son responsables de activar la producción de líquidos y otras sustancias como las hormonas y las enzimas, también intervienen en procesos vitales de los seres vivos como la respiración, la digestión y la circulación de la sangre.
-    
-    p.mb-4.mb-lg-5.text-center.fw-bold.z-2 Los siguientes minerales hacen parte de los más importantes que necesitan los seres humanos para sobrevivir y se encuentran en diversas frutas y verduras.
+        p.mb-0 Los minerales son micronutrientes inorgánicos que cumplen funciones vitales en el organismo humano. A diferencia de las vitaminas, no pueden ser sintetizados por el cuerpo, por lo que deben obtenerse a través de la alimentación, especialmente mediante el consumo regular de frutas y verduras frescas. Estos elementos participan en procesos como la transmisión nerviosa, la contracción muscular, la formación de tejidos y el equilibrio de líquidos corporales. Algunos también actúan como cofactores enzimáticos, facilitando reacciones químicas esenciales para la vida. La presencia adecuada de minerales en la dieta es indispensable para el mantenimiento de la salud ósea, la función cardiovascular y la prevención de enfermedades crónicas. A continuación, se presentan los minerales más relevantes presentes en los vegetales y sus principales beneficios fisiológicos:
+   
+    .tarjeta.conservas-slyder.more-elements.p-4.p-lg-5.pb-lg-4.mb-4.mb-lg-5.z-2
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/17.png', alt='trigo, fríjoles, maíz, avena')
+          .col-md-6.col-lg-7
+            h4 Magnesio
+            p <strong>Función</strong>: funcionamiento de músculos, huesos y dientes, ayuda en articulaciones.
+            p <strong>Procedencia</strong>: trigo, fríjoles, maíz, avena, almendras, nueces, higos, verduras de hojas verdes, entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/18.png', alt='verduras de hojas verdes')
+          .col-md-6.col-lg-7
+            h4 Calcio
+            p <strong>Función</strong>: formación de huesos y dientes, coagulación sanguínea, funciones musculares.
+            p <strong>Procedencia</strong>: verduras de hojas verdes, semillas de ajonjolí, perejil entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/19.png', alt='cereales naturales, frijoles')
+          .col-md-6.col-lg-7
+            h4 Fósforo
+            p <strong>Función</strong>: formación de huesos y dientes, creación de células.
+            p <strong>Procedencia</strong>: cereales naturales, frijoles, lentejas, entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/20.png', alt='frutas, vegetales de hojas verdes')
+          .col-md-6.col-lg-7
+            h4 Potasio
+            p <strong>Función</strong>: funcionamiento de riñones y corazón, transmisión de señales nerviosas, control de niveles de agua.
+            p <strong>Procedencia</strong>: frutas, vegetales de hojas verdes, papas entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/21.png', alt='frutas y verduras')
+          .col-md-6.col-lg-7
+            h4 Flúor
+            p <strong>Función</strong>: composición de huesos y dientes, previene caries dentales.
+            p <strong>Procedencia</strong>: frutas y verduras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/22.png', alt='verduras de hojas verdes')
+          .col-md-6.col-lg-7
+            h4 Hierro
+            p <strong>Función</strong>: producción de hemoglobina y transporte de oxígeno.
+            p <strong>Procedencia</strong>: verduras de hojas verdes, higos, entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/23.png', alt='cereales integrales')
+          .col-md-6.col-lg-7
+            h4 Selenio
+            p <strong>Función</strong>: propiedades antioxidantes, prevención del cáncer, apoyo al corazón, hígado y órganos reproductivos.
+            p <strong>Procedencia</strong>: cereales integrales, verduras, entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/24.png', alt='cereales')
+          .col-md-6.col-lg-7
+            h4 Sodio
+            p <strong>Función</strong>: funcionamiento de músculos y nervios, regulación de líquidos y digestión.
+            p <strong>Procedencia</strong>: cereales.
+        .row.align-items-center
+          .col-md-6.col-lg-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema2/25.png', alt='legumbres, frutos secos')
+          .col-md-6.col-lg-7
+            h4 Zinc
+            p <strong>Función</strong>: desarrollo del cuerpo, piel y cabello.
+            p <strong>Procedencia</strong>: legumbres, frutos secos, semillas de girasol, entre otras.
 
-    .row.justify-content-center.align-items-center.mb-3.mb-lg-4.z-2
-      .col-xl-10
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 2. 
-          span Clasificación de verduras
-        
-        .tabla-a.color-acento-contenido.mb-2
-          table.conservas-table
-            caption <strong>Nota</strong>: Sena (2024).
-            thead
-              tr(style="background: #9EB682;")
-                th Mineral
-                th(colspan="2") Función
-                th Precedencia
-            tbody
-              tr
-                td Hierro
-                td(colspan="2") Se encarga de producir hemoglobina en la sangre y participa en el transporte del oxígeno a través de todo el torrente sanguíneo.
-                td Puede encontrarse en verduras de hojas verdes y en higos.
-              tr
-                td Magnesio
-                td(colspan="2") Ayuda al correcto funcionamiento de los músculos, conserva sanos a los huesos y a los dientes; además es de gran ayuda para las articulaciones de brazos y piernas.
-                td El trigo, los fríjoles, el maíz, la avena, las almendras, las nueces, los higos y las verduras de hojas verdes.
-              tr
-                td Calcio
-                td(colspan="2") Es un mineral esencial para la formación de los huesos y los dientes, participa en las acciones que le permiten a la sangre coagularse, ayuda en las funciones musculares.
-                td Puede encontrarse en verduras de hojas verdes y en semillas de ajonjolí y perejil.
-              tr
-                td Fósforo
-                td(colspan="2") Hace parte del proceso mediante el cual se forman los huesos y los dientes, también participa en la creación de las células.
-                td Puede obtenerse de los cereales naturales, los fríjoles y las lentejas.
-              tr
-                td Selenio
-                td(colspan="2") Tiene propiedades antioxidantes y ayuda a prevenir el cáncer, además de facilitar el funcionamiento del corazón, el hígado y los órganos reproductivos.
-                td Puede encontrarse en los cereales integrales y en gran parte de las verduras.
-              tr
-                td Potasio
-                td(colspan="2") Sirve para el funcionamiento adecuado de los riñones y del corazón. Participa en la transmisión de señales nerviosas y controla los niveles de agua en el cuerpo.
-                td Todas las frutas, vegetales de hojas verdes y papas.
-              tr
-                td Sodio
-                td(colspan="2") Se ocupa del funcionamiento de los músculos y los nervios, regula los líquidos del cuerpo, contribuye a la correcta digestión de los alimentos y previene la deshidratación.
-                td Puede encontrarse en los cereales.
-              tr
-                td Flúor
-                td(colspan="2") Hace parte de la composición de los huesos y dientes, además previene la aparición de caries dentales.
-                td Se obtiene de frutas y verduras en general.
-              tr
-                td Zinc
-                td(colspan="2") Es importante para tener un adecuado desarrollo del cuerpo y sus tejidos como es el caso de la piel y el cabello.
-                td Se le puede encontrar en legumbres, frutos secos y semillas de girasol.
-    
     Separador
+
     .fullwidth-bg.fullwidth-bg--4
     #t_2_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido.z-2
       h3 2.3 Sustancias bioactivas y fitoquímicos
@@ -239,7 +261,9 @@
           img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/11.png', alt='Imagen decorativa')
       .col-lg-8
         p Los esteroles vegetales son sustancias naturales que se encuentran en muchos alimentos de origen vegetal. Aunque no son colesterol, tienen una estructura parecida y cumplen funciones similares en el cuerpo: ayudan a formar algunas hormonas y a mantener las membranas de las células en buen estado.
-        p.mb-0 Su principal beneficio es que reducen la absorción del colesterol malo (LDL) en el intestino, lo que ayuda a proteger el corazón y los vasos sanguíneos.
+        p Su principal beneficio es que reducen la absorción del colesterol malo (LDL) en el intestino, lo que ayuda a proteger el corazón y los vasos sanguíneos.
+        .cajon.color-secundario.p-4
+          p.mb-0 Están presentes en aceites como el de maíz, girasol y oliva, así como en frutos secos, lechuga, tomate y plátano.
 
     Separador
 

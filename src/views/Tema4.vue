@@ -40,7 +40,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/4.png" alt="Imagen de factores internos")
           h5.numbered-card__title Estado de madurez
-          p.text-center.font-small Este factor determina la resistencia del producto al manejo postcosecha y su susceptibilidad al deterioro. Los productos inmaduros tienden a ser más vulnerables a daños mecánicos y a un mayor deterioro, mientras que los productos en su punto óptimo de madurez suelen tener mejores características de calidad y mayor vida útil.
+          p.text-center.font-small Este factor determina la resistencia del producto al manejo poscosecha y su susceptibilidad al deterioro. Los productos inmaduros tienden a ser más vulnerables a daños mecánicos y a un mayor deterioro, mientras que los productos en su punto óptimo de madurez suelen tener mejores características de calidad y mayor vida útil.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .numbered-card.p-4.color-amarillo-claro
           span.numbered-card__number.numbered-card__number--yellow 03
@@ -56,7 +56,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/6.png" alt="Imagen de factores internos")
           h5.numbered-card__title Respiración y transpiración
-          p.text-center.font-small Estos procesos fisiológicos afectan la pérdida de peso y la calidad del producto durante la postcosecha. La respiración consume energía y produce calor, mientras que la transpiración provoca la pérdida de agua, lo que puede deteriorar la textura y el aspecto visual del producto.
+          p.text-center.font-small Estos procesos fisiológicos afectan la pérdida de peso y la calidad del producto durante la poscosecha. La respiración consume energía y produce calor, mientras que la transpiración provoca la pérdida de agua, lo que puede deteriorar la textura y el aspecto visual del producto.
 
     Separador
 
@@ -94,8 +94,8 @@
             figure
               img(src='@/assets/curso/temas/tema4/10.png', alt='Manos recolectando tomates')
           .col-md-6.col-lg-8
-            h5 Manejo de postcosecha
-            p La manipulación inadecuada durante la postcosecha puede causar golpes, cortes o contaminaciones, lo que compromete la integridad física y microbiológica del producto, reduciendo su vida útil y calidad.
+            h5 Manejo de poscosecha
+            p La manipulación inadecuada durante la poscosecha puede causar golpes, cortes o contaminaciones, lo que compromete la integridad física y microbiológica del producto, reduciendo su vida útil y calidad.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-5
@@ -108,12 +108,12 @@
     .row.justify-content-center.align-items-center.mb-3.mb-lg-4.z-2
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 3. 
-          span Comparación factores internos y externos que afectan la calidad
+          h5 Tabla 1. 
+          span Comparación de factores internos y externos que afectan la calidad
         
         .tabla-a.color-acento-contenido.mb-2
           table.conservas-table
-            caption <strong>Nota</strong>: Sena (2025).
+            caption <strong>Fuente</strong>: SENA, 2025.
             thead
               tr(style="background: #9EB682;")
                 th Tipo de factor
@@ -126,7 +126,7 @@
                 td(colspan="2") Ablandamiento, pardeamiento, alteraciones en textura y sabor.
               tr
                 td Externo
-                td(colspan="2") Temperatura, humedad relativa, luz y manejo postcosecha.
+                td(colspan="2") Temperatura, humedad relativa, luz y manejo poscosecha.
                 td(colspan="2") Daños mecánicos, pérdida de color, deshidratación y aparición de brotes.
 
 

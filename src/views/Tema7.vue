@@ -15,7 +15,7 @@
       .col-lg-7
         p El proceso de elaboración de conservas requiere una atención rigurosa a normas higiénicas que aseguren la inocuidad de los alimentos, la estabilidad del producto a lo largo del tiempo y la protección del consumidor frente a posibles riesgos sanitarios. Estas normas comprenden desde la selección y preparación de los ingredientes, el uso de materiales adecuados, el control de equipos y procesos, hasta la aplicación de buenas prácticas de higiene y la incorporación de tecnologías innovadoras.
         .cajon.color-acento-contenido.p-4(data-aos="fade-left")
-          p.mb-0 El cumplimiento de normas higiénicas no solo es una exigencia regulatoria, según lo establecido por autoridades sanitarias nacionales e internacionales como el INVIMA o el Codex Alimentarius, sino también un elemento clave para garantizar la calidad organoléptica y microbiológica del alimento conservado.
+          p.mb-0 El cumplimiento de normas higiénicas no solo es una exigencia regulatoria, según lo establecido por autoridades sanitarias nacionales e internacionales como el INVIMA o el <em>Codex Alimentarius</em>, sino también un elemento clave para garantizar la calidad organoléptica y microbiológica del alimento conservado.
 
     Separador
 
@@ -43,8 +43,8 @@
             p El ácido cítrico, proveniente de los cítricos, además de aportar sabor, actúa como antioxidante natural que mantiene el color y la frescura de las frutas procesadas.
 
           div(titulo="Sales y fermentados")
-            p La sal tiene funciones antimicrobianas y organolépticas. Usada en salmueras (soluciones salinas al 10-15 %), permite la fermentación controlada de vegetales como el chucrut o pepinillos. La alta concentración de sal promueve el crecimiento de bacterias lácticas beneficiosas y desplaza microorganismos indeseados.
-            p En la cocina asiática, ingredientes como el miso o la salsa de soja son ejemplos de productos fermentados que ofrecen sabor umami y propiedades conservantes gracias a su contenido de sal y compuestos bioactivos.
+            p La sal tiene funciones antimicrobianas y organolépticas. Usada en salmueras (soluciones salinas al 10-15 %), permite la fermentación controlada de vegetales como el <em>chucrut</em> o pepinillos. La alta concentración de sal promueve el crecimiento de bacterias lácticas beneficiosas y desplaza microorganismos indeseados.
+            p En la cocina asiática, ingredientes como el miso o la salsa de soja son ejemplos de productos fermentados que ofrecen sabor <em>umami</em> y propiedades conservantes gracias a su contenido de sal y compuestos bioactivos.
 
           div(titulo="Espesantes y estabilizantes innovadores")
             p El agar-agar, gelificante extraído de algas marinas, es usado especialmente en conservas veganas, aportando una textura firme sin necesidad de ingredientes de origen animal.
@@ -112,15 +112,15 @@
           img.mb-4.mb-lg-0(data-aos="fade-up")(src="@/assets/curso/temas/tema7/11.png" alt="Imagen decorativa")
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
-          div(titulo="Limpieza de materias primas")
-            h5.ms-4 Higienización en dos fases
+          div(titulo="Paso 1: limpieza de materias primas")
+            h5.ms-4 Actividad: higienización en dos fases
             ul.checklist.checklist--orange.ms-4
               li <strong>Fase 1: lavado inicial</strong>: inmersión de frutas y hortalizas en agua con bicarbonato de sodio (1 cucharada por litro) para eliminar suciedad y residuos superficiales.
               li <strong>Fase 2: desinfección secundaria</strong>: aplicación de solución de hipoclorito de sodio a 50 ppm durante mínimo 5 minutos. Posteriormente, enjuague con agua potable para remover restos químicos.
               li <strong>Objetivo</strong>: reducir carga microbiana inicial y eliminar agentes contaminantes sin afectar la calidad sensorial.
 
-          div(titulo="Limpieza de equipos e instalaciones")
-            h5.ms-4 Sistema CIP (Clean-In-Place)
+          div(titulo="Paso 2: limpieza de equipos e instalaciones")
+            h5.ms-4 Actividad: sistema CIP (<em>Clean-In-Place</em>)
             p.ms-4.mb-0 <strong>Etapa 1</strong>: enjuague preliminar.
             p.ms-4.mb-0 <strong>Etapa 2</strong>: limpieza con soluciones alcalinas.
             p.ms-4.mb-0 <strong>Etapa 3</strong>: limpieza ácida (remoción de residuos minerales).
@@ -131,16 +131,16 @@
               li <strong>Ventaja</strong>: automatiza la higienización sin desmontar los equipos, mejorando la eficiencia, la uniformidad del proceso y reduciendo el riesgo de contaminación cruzada.
 
 
-          div(titulo="Control microbiológico")
-            h5.ms-4 Verificación de parámetros críticos
+          div(titulo="Paso 3: control microbiológico")
+            h5.ms-4 Actividad: verificación de parámetros críticos
             ul.checklist.checklist--orange.ms-4
               li <strong>Medición de pH y aₓ (actividad de agua)</strong>: uso de tiras reactivas o sensores digitales. Para mermeladas y productos similares, la actividad de agua debe ser ≤ 0.85.
               li <strong>Detección rápida de contaminantes</strong>: uso de microscopios portátiles para identificar precozmente hongos filamentosos o contaminaciones superficiales.
               li <strong>Propósito</strong>: asegurar que las condiciones microbiológicas se mantengan dentro de los límites.
 
 
-          div(titulo="Manejo de alérgenos")
-            h5.ms-4 Prevención y rotulación clara
+          div(titulo="Paso 4: manejo de alérgenos")
+            h5.ms-4 Actividad: prevención y rotulación clara
             ul.checklist.checklist--orange.ms-4
               li <strong>Separación física de líneas de producción</strong>: evita la contaminación cruzada entre productos con y sin alérgenos (gluten, lácteos y frutos secos).
               li <strong>Etiquetado responsable</strong>: inclusión de leyendas como “Puede contener…” o “Elaborado en instalaciones que también procesan…”, conforme a normativas nacionales e internacionales.
@@ -161,7 +161,7 @@
         .innovation-info.bg-color-acento-contenido-ac10.p-4.pt-5.rounded-3
           h4.innovation-info__title Innovación  1: altas presiones hidrostáticas (HPP)
           h5.innovation-info__subtitle Conservación sin calor, calidad preservada
-          p La tecnología HPP (High Pressure Processing) consiste en aplicar presiones superiores a los 600 megapascales de manera uniforme sobre los alimentos ya envasados.
+          p La tecnología HPP (<em>High Pressure Processing</em>) consiste en aplicar presiones superiores a los 600 megapascales de manera uniforme sobre los alimentos ya envasados.
           p Este tratamiento no térmico elimina microorganismos patógenos y reduce la carga microbiana sin comprometer las propiedades sensoriales ni nutricionales del producto.
           h5.innovation-info__subtitle Aplicaciones destacadas
           p Guacamole, salsas frescas, jugos prensados en frío, sopas listas entre otras.
@@ -182,11 +182,11 @@
         .innovation-info.bg-color-acento-contenido-ac10.p-4.pt-5.rounded-3.mb-4.mb-lg-0
           h4.innovation-info__title Innovación 2: fermentación controlada
           h5.innovation-info__subtitle Microbiota funcional al servicio de la conservación
-          p Mediante el uso de cultivos iniciadores específicos, como Lactobacillus plantarum, se dirige la fermentación natural de los alimentos de forma segura y estandarizada.
+          p Mediante el uso de cultivos iniciadores específicos, como <em>Lactobacillus plantarum</em>, se dirige la fermentación natural de los alimentos de forma segura y estandarizada.
           p Este proceso favorece el desarrollo de bacterias beneficiosas que mejoran la estabilidad microbiológica, mientras aportan propiedades funcionales al alimento.
 
           h5.innovation-info__subtitle Aplicaciones comunes
-          p Encurtidos artesanales, repollo fermentado (chucrut), zanahorias o pepinos en salmuera.
+          p Encurtidos artesanales, repollo fermentado (<em>chucrut</em>), zanahorias o pepinos en salmuera.
           .row.justify-content-start.align-items-center
             .col-12.col-sm-6.col-lg-7
               h5.innovation-info__subtitle--list Ventajas

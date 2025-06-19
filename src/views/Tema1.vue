@@ -97,51 +97,58 @@
     
     p.mb-4.text-center.fw-bold.z-2 Las verduras también pueden agruparse según la parte de la planta que se consume:
 
-    .row.justify-content-center.align-items-center.mb-3.mb-lg-4.z-2
-      .col-xl-10
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 1. 
-          span Clasificación de frutas
-        
-        .tabla-a.color-acento-contenido.mb-2
-          table.conservas-table
-            caption <strong>Nota</strong>: Sena (2024).
-            thead
-              tr(style="background: #9EB682;")
-                th Clasificación
-                th(colspan="2") Descripción
-                th Ejemplo
-            tbody
-              tr
-                td Hoja
-                td(colspan="2") Se conocen como las verduras cuyas hojas son comestibles.
-                td Lechuga, espinaca, col rizada.
-              tr
-                td Raiz
-                td(colspan="2") Corresponden a la parte de la planta que crece bajo la tierra y que se puede comer, por lo general son ricas en carbohidratos y azúcares
-                td Zanahoria, remolacha, nabo.
-              tr
-                td Tallo
-                td(colspan="2") Estos se componen por el tallo y la raíz de la planta.
-                td Apio, espárrago.
-              tr
-                td Flor
-                td(colspan="2") Son aquellas que se consumen principalmente por sus flores, que son la parte de la planta que se desarrolla antes de ser fertilizada.
-                td Coliflor, brócoli, alcachofa.
-              tr
-                td Bulbo
-                td(colspan="2") Se estos hacen parte de ciertas plantas y se conforman por un tallo cubierto por escamas comestibles.
-                td Cebolla, ajo.
-              tr
-                td Fruto
-                td(colspan="2") Aunque se consumen como verduras, en realidad son frutos que se han adaptado para ser utilizados en platos salados.
-                td Tomate, pepino, calabaza.
-              tr
-                td Túberculo
-                td(colspan="2") Corresponden a la parte de la planta que cumple la función de reservar temporalmente las sustancias que esta necesita para su supervivencia tales como nutrientes y carbohidratos.
-                td Papa, camote.
+    .tarjeta.conservas-slyder.p-4.p-lg-5.pb-lg-4.mb-4.mb-lg-5.z-2
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/6.png', alt='lechuga, acelga, espinaca')
+          .col-md-6.col-lg-8
+            h5 Hojas comestibles
+            p La temperatura influye directamente en la tasa de respiración del producto vegetal. Un exceso de calor acelera el proceso de maduración y deterioro, mientras que temperaturas bajas pueden provocar daños por frío, afectando la textura y el sabor.
+            p <strong>Ejemplos</strong>: lechuga, acelga, espinaca, entre otras.
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/7.png', alt='zanahoria y remolacha.')
+          .col-md-6.col-lg-8
+            h5 Raíces comestibles
+            p Son las partes subterráneas que almacenan nutrientes. Se caracterizan por su textura crujiente y alta concentración de carbohidratos. Son resistentes y se almacenan bien.
+            p <strong>Ejemplos</strong>: zanahoria y remolacha.
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/8.png', alt='apio y espárrago')
+          .col-md-6.col-lg-8
+            h5 Tallos comestibles
+            p Se consumen los tallos tiernos y fibrosos. Son crujientes y jugosos, con bajo contenido calórico. Se usan en ensaladas, sopas y batidos.
+            p <strong>Ejemplos</strong>: apio y espárrago.
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/9.png', alt='cebolla y ajo')
+          .col-md-6.col-lg-8
+            h5 Bulbos comestibles
+            p Los bulbos son estructuras subterráneas que almacenan nutrientes. Poseen compuestos sulfurados con propiedades antibacterianas. Se usan como base aromática en múltiples preparaciones.
+            p <strong>Ejemplos</strong>: cebolla y ajo.
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/10.png', alt='brócoli y coliflor.')
+          .col-md-6.col-lg-8
+            h5 Flores comestibles
+            p Son las flores de la planta que se cosechan antes de abrir. Ricas en antioxidantes como glucosinolatos. Se deben cocer ligeramente para conservar su valor nutricional.
+            p <strong>Ejemplos</strong>: brócoli y coliflor.
+        .row.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/11.png', alt='Manos recolectando tomates')
+          .col-md-6.col-lg-8
+            h5 Frutos verdes comestibles
+            p Aunque botánicamente son frutos, se consumen inmaduros como verduras. Tienen alto contenido de agua y aportan frescura. Ideales para ensaladas.
+            p <strong>Ejemplos</strong>: pepino, pimentón, tomate (inmaduro) entre otros.
 
-    .cajon.color-acento-contenido.p-4(data-aos="fade-left")
+    .cajon.color-secundario.p-4(data-aos="fade-left")
       p.mb-0 Esta clasificación permite aplicar tratamientos poscosecha específicos y elegir las mejores opciones para conservación y transformación.
 
 
