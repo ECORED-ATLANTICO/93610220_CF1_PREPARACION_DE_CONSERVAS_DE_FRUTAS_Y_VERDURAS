@@ -19,7 +19,7 @@
 
     
     .video.mb-5
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/mdou0qrsGow?si=sMIZBtkr-BzQdegD" title="Video 1.	Generalidades, ingredientes y aspectos higiénicos en la preparación de conservas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/x7VjTivXHBk" title="Generalidades, ingredientes y aspectos higiénicos en la preparación de conservas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </template>
 
 <script>

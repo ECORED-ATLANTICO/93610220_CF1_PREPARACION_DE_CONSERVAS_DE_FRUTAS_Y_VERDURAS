@@ -27,7 +27,7 @@
           span Vitaminas en las frutas y verduras 
         figure
           img.mb-4.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
-          figcaption <strong>Fuente</strong>: SENA, 2025
+          figcaption <strong>Fuente:</strong> SENA, 2025.
 
     p.mb-4.mb-lg-5 Debido a su origen natural, estas vitaminas se encuentran en formas fácilmente asimilables por el cuerpo, lo que potencia sus efectos beneficiosos. Su presencia en la dieta diaria es clave para mantener un estado de salud óptimo y prevenir diversas deficiencias nutricionales. Entre las más destacadas por su abundancia y acción específica en estos alimentos se encuentran:
 

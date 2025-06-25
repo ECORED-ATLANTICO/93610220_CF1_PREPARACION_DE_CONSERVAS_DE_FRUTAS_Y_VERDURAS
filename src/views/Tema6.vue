@@ -93,14 +93,14 @@
             p.mb-4.pe-xl-5 La fermentación es un proceso biotecnológico que se utiliza ampliamente en la producción de encurtidos y otros productos fermentados. Este proceso implica la transformación de los azúcares presentes en los alimentos en ácidos orgánicos, como el ácido láctico o acético, mediante la acción de microorganismos. La fermentación no solo mejora la conservación de los alimentos, sino que también contribuye al desarrollo de sabores característicos y beneficios para la salud, como la mejora de la digestibilidad y la producción de probióticos.
 
 
-      .p-0(titulo="Aplicación de Microorganismos Benéficos")
+      .p-0(titulo="Aplicación de microorganismos benéficos")
         .row.align-items-center.justify-content-center
           .col-10.col-sm-8.col-lg-4
             figure
               img.mb-4.mb-lg-0(data-aos="fade-left")(src='@/assets/curso/temas/tema6/8.png', alt='Aplicación de Microorganismos Benéficos')
         
           .col-lg-8.mb-4.mb-md-0
-            h4 Aplicación de Microorganismos Benéficos
+            h4 Aplicación de microorganismos benéficos
             p.mb-4 El uso de microorganismos benéficos, como las bacterias lácticas, es fundamental para inhibir el crecimiento de patógenos en productos alimenticios. Las bacterias lácticas, por ejemplo, producen compuestos antimicrobianos y acidifican el ambiente, lo que ayuda a prevenir la proliferación de microorganismos indeseables.
 
   

@@ -113,7 +113,7 @@
         
         .tabla-a.color-acento-contenido.mb-2
           table.conservas-table
-            caption <strong>Fuente</strong>: SENA, 2025.
+            caption <strong>Fuente:</strong> SENA, 2025.
             thead
               tr(style="background: #9EB682;")
                 th Tipo de factor

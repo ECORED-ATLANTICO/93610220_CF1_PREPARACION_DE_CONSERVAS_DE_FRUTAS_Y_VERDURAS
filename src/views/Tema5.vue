@@ -42,7 +42,7 @@
       .col-lg-9
         TabsA.color-secundario
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Pardeamiento enzimático")
-            p Es un cambio de color que oscurece frutas y verduras cuando se cortan o dañan. Ocurre por la acción de una enzima llamada polifenoloxidasa (PPO), que reacciona con el oxígeno del aire. 
+            p Es un cambio de color que oscurece frutas y verduras cuando se cortan o dañan. Ocurre por la acción de una enzima llamada polifenoloxidasa (<em>PPO</em>), que reacciona con el oxígeno del aire. 
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Liposoxidación")
             p Es la degradación de las grasas insaturadas presentes en algunos vegetales, especialmente durante el almacenamiento. Esta reacción provoca sabores y olores rancios, afectando la calidad sensorial del producto.
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Reacciones de Maillard")
@@ -68,7 +68,7 @@
             figure
               img(src="@/assets/curso/temas/tema5/4.png" alt="Imagen de factores internos")
           h5.numbered-card__title Moho gris
-          p.text-center.font-small <em>Botrytis cinerea</em> es un hongo que prolifera en ambientes húmedos. Se caracteriza por una capa gris visible que acelera la descomposición de frutas blandas y jugosas, especialmente en postcosecha.
+          p.text-center.font-small <em>Botrytis cinerea</em> es un hongo que prolifera en ambientes húmedos. Se caracteriza por una capa gris visible que acelera la descomposición de frutas blandas y jugosas, especialmente en poscosecha.
       .col-sm-6.col-lg-4.mb-4.mb-xl-0
         .numbered-card.p-4.color-verde-claro(data-aos="flip-right")
           .numbered-card__img.mb-4

@@ -105,7 +105,7 @@
               img(src='@/assets/curso/temas/tema1/6.png', alt='lechuga, acelga, espinaca')
           .col-md-6.col-lg-8
             h5 Hojas comestibles
-            p La temperatura influye directamente en la tasa de respiración del producto vegetal. Un exceso de calor acelera el proceso de maduración y deterioro, mientras que temperaturas bajas pueden provocar daños por frío, afectando la textura y el sabor.
+            p Las verduras de hoja son aquellas que se consumen directamente desde el follaje de la planta. Son ricas en clorofila, fibra y minerales como el hierro. Suelen ser muy perecederas y requieren refrigeración.
             p <strong>Ejemplos</strong>: lechuga, acelga, espinaca, entre otras.
         .row.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0

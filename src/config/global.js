@@ -374,7 +374,7 @@ export default {
     },
     {
       referencia:
-        'ZFAO. (2016). Manejo poscosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
+        'FAO. (2016). Manejo poscosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
       link: 'https://www.fao.org/4/x5056s/x5056s00.htm',
     },
   ],
