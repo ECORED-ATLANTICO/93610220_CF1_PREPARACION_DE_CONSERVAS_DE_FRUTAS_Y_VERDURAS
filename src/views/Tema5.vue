@@ -42,7 +42,7 @@
       .col-lg-9
         TabsA.color-secundario
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Pardeamiento enzimático")
-            p Es un cambio de color que oscurece frutas y verduras cuando se cortan o dañan. Ocurre por la acción de una enzima llamada polifenoloxidasa (<em>PPO</em>), que reacciona con el oxígeno del aire. 
+            p Es un cambio de color que oscurece frutas y verduras cuando se cortan o dañan. Ocurre por la acción de una enzima llamada <em>polifenoloxidasa</em> (PPO), que reacciona con el oxígeno del aire. 
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Liposoxidación")
             p Es la degradación de las grasas insaturadas presentes en algunos vegetales, especialmente durante el almacenamiento. Esta reacción provoca sabores y olores rancios, afectando la calidad sensorial del producto.
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Reacciones de Maillard")

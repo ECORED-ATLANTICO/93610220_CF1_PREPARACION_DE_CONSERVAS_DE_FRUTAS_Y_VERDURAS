@@ -246,7 +246,8 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download:
+          'downloads/generalidades-ingredientes-en-preparacion-de-conservas.zip',
       },
       {
         icono: 'far fa-registered',

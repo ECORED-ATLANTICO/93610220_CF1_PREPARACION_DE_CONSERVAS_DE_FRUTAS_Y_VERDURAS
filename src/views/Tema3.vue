@@ -79,7 +79,7 @@
                   img(src="@/assets/curso/temas/tema3/7.png", alt="Alteraciones enzimáticas")
               .crd_hover_txt--body.px-1.color-acento-contenido
                 h5.text-center <em>Alteraciones enzimáticas</em>
-                p.text-center.font-small.mb-0 Las enzimas son catalizadores biológicos que regulan muchas transformaciones en frutas y hortalizas. Una de las más conocidas es la polifenoloxidasa, que al reaccionar con el oxígeno genera el pardeamiento enzimático, observable en productos como la manzana, la papa y la pera cuando se exponen al aire tras ser cortadas. Cambios en el color, especialmente el oscurecimiento, afectan la percepción del consumidor.
+                p.text-center.font-small.mb-0 Las enzimas son catalizadores biológicos que regulan muchas transformaciones en frutas y hortalizas. Una de las más conocidas es la <em>polifenoloxidasa</em>, que al reaccionar con el oxígeno genera el pardeamiento enzimático, observable en productos como la manzana, la papa y la pera cuando se exponen al aire tras ser cortadas. Cambios en el color, especialmente el oscurecimiento, afectan la percepción del consumidor.
 
 
 </template>
