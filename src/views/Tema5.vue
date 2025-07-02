@@ -42,10 +42,13 @@
       .col-lg-9
         TabsA.color-secundario
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Pardeamiento enzimático")
+            h5 Pardeamiento enzimático
             p Es un cambio de color que oscurece frutas y verduras cuando se cortan o dañan. Ocurre por la acción de una enzima llamada <em>polifenoloxidasa</em> (PPO), que reacciona con el oxígeno del aire. 
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Liposoxidación")
+            h5 Liposoxidación
             p Es la degradación de las grasas insaturadas presentes en algunos vegetales, especialmente durante el almacenamiento. Esta reacción provoca sabores y olores rancios, afectando la calidad sensorial del producto.
           .tarjeta.bg-color-secundario-s10.p-4.rounded-2(titulo="Reacciones de Maillard")
+            h5 Reacciones de Maillard
             p Ocurren cuando los azúcares naturales se combinan con proteínas en presencia de calor, lo que genera un cambio de color (dorado) y sabor característico. Es común durante procesos de cocción o secado.
 
     Separador
@@ -74,7 +77,7 @@
           .numbered-card__img.mb-4
             figure
               img(src="@/assets/curso/temas/tema5/5.png" alt="Imagen de factores internos")
-          h5.numbered-card__title <em>Antracnosis</em>
+          h5.numbered-card__title Antracnosis
           p.text-center.font-small <em>Colletotrichum spp.</em> produce lesiones negras y hundidas que afectan la apariencia y calidad comercial de muchas frutas tropicales. Es común en climas cálidos y con exceso de humedad.
 </template>
 

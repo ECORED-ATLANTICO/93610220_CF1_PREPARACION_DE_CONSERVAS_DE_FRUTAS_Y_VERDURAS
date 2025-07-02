@@ -78,7 +78,7 @@
           .col-md-6.col-lg-7
             h4 Calcio
             p <strong>Función</strong>: formación de huesos y dientes, coagulación sanguínea, funciones musculares.
-            p <strong>Procedencia</strong>: verduras de hojas verdes, semillas de ajonjolí, perejil entre otras.
+            p <strong>Procedencia</strong>: verduras de hojas verdes, semillas de ajonjolí, perejil, entre otras.
         .row.align-items-center
           .col-md-6.col-lg-5.mb-4.mb-md-0
             figure
@@ -94,7 +94,7 @@
           .col-md-6.col-lg-7
             h4 Potasio
             p <strong>Función</strong>: funcionamiento de riñones y corazón, transmisión de señales nerviosas, control de niveles de agua.
-            p <strong>Procedencia</strong>: frutas, vegetales de hojas verdes, papas entre otras.
+            p <strong>Procedencia</strong>: frutas, vegetales de hojas verdes, papas, entre otras.
         .row.align-items-center
           .col-md-6.col-lg-5.mb-4.mb-md-0
             figure
@@ -161,7 +161,7 @@
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/6.png", alt="Desgaste de lóbulos")
               .crd_hover_txt--body.color-primario
-                h5.text-center.text-white <em>Polifenoles</em>
+                h5.text-center.text-white Polifenoles
                 p.font-small.text-center.text-white.mb-0 Son potentes antioxidantes que ayudan a combatir el estrés oxidativo. Se han relacionado con la prevención de enfermedades cardiovasculares y neurodegenerativas.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
@@ -170,7 +170,7 @@
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/7.png", alt="frutas")
               .crd_hover_txt--body.color-secundario
-                h5.text-center.text-white <em>Flavonoides</em>
+                h5.text-center.text-white Flavonoides
                 p.font-small.text-center.text-white Un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
@@ -179,7 +179,7 @@
                 figure
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/8.png", alt="brocoli")
               .crd_hover_txt--body.color-acento-contenido
-                h5.text-center <em>Glucosinolatos</em>
+                h5.text-center Glucosinolatos
                 p.font-small.text-center Abundantes en vegetales como el brócoli, la col y la coliflor. Estos compuestos tienen potencial anticancerígeno y favorecen la desintoxicación del organismo.
 
     .fullwidth-bg.fullwidth-bg--5
@@ -205,7 +205,7 @@
           img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/10.png', alt='Imagen decorativa')
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
-          div(titulo="TERPENOS")
+          div(titulo="Terpenos")
             p Compuestos bioactivos con función antioxidante.
             p.mb-0 <strong>Ejemplos</strong>
             ul.ms-3.checklist
@@ -220,26 +220,26 @@
               li Contribuyen a la salud ocular y cardiovascular.
               li Previenen el envejecimiento celular.
 
-          div(titulo="FENOLES")
+          div(titulo="Fenoles")
             p Grupo de compuestos antioxidantes, entre ellos los flavonoides.
             p.mb-0 <strong>Ejemplos</strong>
             ul.ms-3.checklist
               li <strong>Flavonoides</strong> como antocianinas en arándanos, moras y uvas negras.
             p.mb-0 <strong>Colores característicos</strong>
             ul.ms-3.checklist
-              li morado y azul oscuro.
+              li Morado y azul oscuro.
             p.mb-0 <strong>Beneficios para la salud</strong>
             ul.ms-3.checklist.mb-0
               li Protegen contra enfermedades cardiovasculares.
               li Tienen efecto antiinflamatorio.
               li Refuerzan el sistema inmunológico.
 
-          div(titulo="TIOLES Y LIGNANOS")
+          div(titulo="Tioles y lignanos")
             p Compuestos azufrados y polifenólicos con acción desintoxicante y antioxidante.
             p.mb-0 <strong>Ejemplos</strong>
             ul.ms-3.checklist
               li <strong>Tioles</strong>: presentes en cebolla, ajo, repollo y brócoli.
-              li <strong>Lignanos</strong>: en trigo integral, cebada, linaza entre otros.
+              li <strong>Lignanos</strong>: en trigo integral, cebada, linaza, entre otros.
             p.mb-0 <strong>Beneficios para la salud</strong>
             ul.ms-3.checklist.mb-0
               li Eliminan toxinas del cuerpo.

@@ -42,7 +42,7 @@
             figure
               img(data-aos="fade-left")(src='@/assets/curso/temas/tema1/2.png', alt='Frutas variadas')
 
-      .p-0(titulo="Verdudas")
+      .p-0(titulo="Verduras")
         .row.align-items-center.justify-content-center
           .col-lg-8.mb-4.mb-md-0
             h4 Verduras
@@ -75,8 +75,8 @@
           div(titulo="Por tipo de fruto")
             p Las frutas pueden clasificarse por la estructura de su fruto, es decir, si tienen pulpa jugosa o si son secas con bajo contenido de agua.
             ul.checklist.ms-4
-              li <strong>Carnosas</strong>: tienen pulpa jugosa. <strong>Ejemplo</strong>: melón, sandía, mango entre otros.
-              li <strong>Secas</strong>: presentan poco o nula cantidad de agua. <strong>Ejemplo</strong>: nueces y almendras.
+              li <strong>Carnosas</strong>: tienen pulpa jugosa. <strong>Ejemplo</strong>: melón, sandía, mango, entre otros.
+              li <strong>Secas</strong>: presentan poca o nula cantidad de agua. <strong>Ejemplo</strong>: nueces y almendras.
           div(titulo="Por clima de cultivo")
             p El tipo de fruta también depende del clima donde se desarrolla. Se clasifican en tropicales y templadas, según la temperatura y altitud.
             ul.checklist.ms-4
@@ -146,7 +146,7 @@
           .col-md-6.col-lg-8
             h5 Frutos verdes comestibles
             p Aunque botánicamente son frutos, se consumen inmaduros como verduras. Tienen alto contenido de agua y aportan frescura. Ideales para ensaladas.
-            p <strong>Ejemplos</strong>: pepino, pimentón, tomate (inmaduro) entre otros.
+            p <strong>Ejemplos</strong>: pepino, pimentón, tomate (inmaduro), entre otros.
 
     .cajon.color-secundario.p-4(data-aos="fade-left")
       p.mb-0 Esta clasificación permite aplicar tratamientos poscosecha específicos y elegir las mejores opciones para conservación y transformación.

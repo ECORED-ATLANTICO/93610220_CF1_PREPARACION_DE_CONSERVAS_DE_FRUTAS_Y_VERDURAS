@@ -36,7 +36,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordion-conservas")
           div(titulo="Azúcares y sus sustitutos")
             p El azúcar cumple un rol fundamental en la conservación de alimentos al reducir la actividad de agua, dificultando el crecimiento de bacterias, levaduras y mohos. En concentraciones superiores al 60 %, el azúcar actúa como conservante eficaz, especialmente en mermeladas, jaleas y frutas en almíbar. Además, contribuye a la textura mediante su interacción con la pectina para formar geles.
-            p Como alternativas saludables se emplean miel, jarabe de agave, y edulcorantes como la Stevia, especialmente en formulaciones pensadas para personas con restricciones dietéticas como los diabéticos. Estos sustitutos deben utilizarse con consideraciones tecnológicas específicas para mantener la calidad y seguridad del producto.
+            p Como alternativas saludables se emplean miel, jarabe de agave, y edulcorantes como la estevia, especialmente en formulaciones pensadas para personas con restricciones dietéticas como los diabéticos. Estos sustitutos deben utilizarse con consideraciones tecnológicas específicas para mantener la calidad y seguridad del producto.
 
           div(titulo="Ácidos naturales")
             p Los ácidos naturales ayudan a controlar el pH de las conservas, lo cual es esencial para inhibir microorganismos patógenos. El vinagre, fuente de ácido acético, se utiliza ampliamente en encurtidos y conservas ácidas. Un pH inferior o igual a 4.5 es crucial para prevenir el desarrollo de bacterias como <em>Clostridium botulinum.</em>
@@ -164,7 +164,7 @@
           p La tecnología HPP (<em>High Pressure Processing</em>) consiste en aplicar presiones superiores a los 600 megapascales de manera uniforme sobre los alimentos ya envasados.
           p Este tratamiento no térmico elimina microorganismos patógenos y reduce la carga microbiana sin comprometer las propiedades sensoriales ni nutricionales del producto.
           h5.innovation-info__subtitle Aplicaciones destacadas
-          p Guacamole, salsas frescas, jugos prensados en frío, sopas listas entre otras.
+          p Guacamole, salsas frescas, jugos prensados en frío, sopas listas, entre otras.
           .row.justify-content-start.align-items-center
             .col-12.col-sm-6
               h5.innovation-info__subtitle--list Ventajas

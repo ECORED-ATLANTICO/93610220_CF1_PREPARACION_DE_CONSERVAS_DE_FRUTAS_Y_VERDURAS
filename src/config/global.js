@@ -241,13 +241,13 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download:
+          'downloads/generalidades-ingredientes-en-preparacion-de-conservas.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download:
-          'downloads/generalidades-ingredientes-en-preparacion-de-conservas.zip',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -360,13 +360,13 @@ export default {
     {
       referencia:
         'INTA. (2018). Manual de conservación de frutas y hortalizas. Instituto Nacional de Tecnología Agropecuaria.',
-      link: '',
+      link:
+        'https://www.argentina.gob.ar/sites/default/files/2023/08/inta_manual_de_recetas_para_elaborar_conservas_2018.pdf',
     },
     {
       referencia:
         'González, A., & Pardo, A. (2018). Microorganismos beneficiosos en la conservación de alimentos vegetales. Revista Colombiana de Ciencia y Tecnología de Alimentos, 12(2), 45–52.',
-      link:
-        'https://www.argentina.gob.ar/sites/default/files/2023/08/inta_manual_de_recetas_para_elaborar_conservas_2018.pdf',
+      link: '',
     },
     {
       referencia:
@@ -405,7 +405,7 @@ export default {
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
-          nombre: 'Heydy Cristina Gonzalez Garcia',
+          nombre: 'Heydy Cristina González García',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
@@ -416,7 +416,7 @@ export default {
       autores: [
         {
           nombre: 'Antonio Vecino Valero',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <i>web</i>',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -425,7 +425,7 @@ export default {
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Carmen Alicia Martinez Torres',
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
@@ -435,7 +435,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Maria Fernanda Morales Angulo',
+          nombre: 'María Fernanda Morales Angulo',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
