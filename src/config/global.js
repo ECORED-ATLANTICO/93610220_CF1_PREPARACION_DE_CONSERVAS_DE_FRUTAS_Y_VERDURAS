@@ -260,7 +260,7 @@ export default {
     {
       tema: 'Ingredientes y aspectos higiénicos en la preparación de conservas',
       referencia:
-        'Villar, L. (2010). Las mejores conservas. Editorial Integral.',
+        'Villar, L. (2010). <em>Las mejores conservas</em>. Editorial Integral.',
       tipo: 'PDF',
       descarga: '/downloads/libro-de-las-conservas.pdf',
     },
@@ -268,7 +268,7 @@ export default {
       tema:
         'Prevención de pérdidas de alimentos poscosechas: frutas, hortalizas, raíces y tubérculos.',
       referencia:
-        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (1993). Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos (Colección FAO: Capacitación N.º 17/2). Roma: FAO..',
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (1993). <em>Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos</em> (Colección FAO: Capacitación N.º 17/2). Roma: FAO..',
       tipo: 'Libro',
       link: 'https://www.fao.org/4/t0073s/T0073S00.htm#Contents',
     },
@@ -348,7 +348,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Zapata, S., & Gómez, L. (2015). Sustancias bioactivas en los alimentos y su función en la salud humana. Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
+        'Zapata, S., & Gómez, L. (2015). <em>Sustancias bioactivas en los alimentos y su función en la salud humana.</em> Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
       link:
         'https://www.academia.edu/32156732/SUSTANCIAS_BIOACTIVAS_EN_LOS_ALIMENTOS',
     },
@@ -359,23 +359,23 @@ export default {
     },
     {
       referencia:
-        'INTA. (2018). Manual de conservación de frutas y hortalizas. Instituto Nacional de Tecnología Agropecuaria.',
+        'INTA. (2018). <em>Manual de conservación de frutas y hortalizas</em>. Instituto Nacional de Tecnología Agropecuaria.',
       link:
         'https://www.argentina.gob.ar/sites/default/files/2023/08/inta_manual_de_recetas_para_elaborar_conservas_2018.pdf',
     },
     {
       referencia:
-        'González, A., & Pardo, A. (2018). Microorganismos beneficiosos en la conservación de alimentos vegetales. Revista Colombiana de Ciencia y Tecnología de Alimentos, 12(2), 45–52.',
+        'González, A., & Pardo, A. (2018). <em>Microorganismos beneficiosos en la conservación de alimentos vegetales</em>. Revista Colombiana de Ciencia y Tecnología de Alimentos, 12(2), 45–52.',
       link: '',
     },
     {
       referencia:
-        'Zapata, S., & Gómez, L. (2015). Componentes funcionales en frutas y verduras frescas. Editorial Académica Española.',
+        'Zapata, S., & Gómez, L. (2015). <em>Componentes funcionales en frutas y verduras frescas</em>. Editorial Académica Española.',
       link: '',
     },
     {
       referencia:
-        'FAO. (2016). Manejo poscosecha de frutas y hortalizas. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
+        'FAO. (2016). <em>Manejo poscosecha de frutas y hortalizas</em>. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
       link: 'https://www.fao.org/4/x5056s/x5056s00.htm',
     },
   ],
