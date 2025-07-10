@@ -348,7 +348,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Zapata, S., & Gómez, L. (2015). <em>Sustancias bioactivas en los alimentos y su función en la salud humana.</em> Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
+        'Zapata, S., & Gómez, L. (2015). <em>Sustancias bioactivas en los alimentos.</em> Revista Colombiana de Ciencias Químico-Farmacéuticas, 44(2), 183–198.',
       link:
         'https://www.academia.edu/32156732/SUSTANCIAS_BIOACTIVAS_EN_LOS_ALIMENTOS',
     },
@@ -359,7 +359,7 @@ export default {
     },
     {
       referencia:
-        'INTA. (2018). <em>Manual de conservación de frutas y hortalizas</em>. Instituto Nacional de Tecnología Agropecuaria.',
+        'INTA. (2018). <em>Manual de conservas</em>. Instituto Nacional de Tecnología Agropecuaria.',
       link:
         'https://www.argentina.gob.ar/sites/default/files/2023/08/inta_manual_de_recetas_para_elaborar_conservas_2018.pdf',
     },
@@ -375,7 +375,7 @@ export default {
     },
     {
       referencia:
-        'FAO. (2016). <em>Manejo poscosecha de frutas y hortalizas</em>. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
+        'FAO. (2016). <em>Manual para el mejoramiento del manejo poscosecha de frutas y hortalizas</em>. Organización de las Naciones Unidas para la Alimentación y la Agricultura.',
       link: 'https://www.fao.org/4/x5056s/x5056s00.htm',
     },
   ],

@@ -26,7 +26,7 @@
           h5 Figura 1. 
           span Vitaminas en las frutas y verduras 
         figure
-          img.mb-4.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="Frutas y verduras variadas")
+          img.mb-4.z-2(data-aos="fade-right")(src="@/assets/curso/temas/tema2/2.png" alt="en la imagen se detallan las 12 vitaminas principales A, C, D, E, K, B1, B2, B3, B6, B7, B9, B12.")
           figcaption <strong>Fuente:</strong> SENA, 2025.
 
     p.mb-4.mb-lg-5 Debido a su origen natural, estas vitaminas se encuentran en formas fácilmente asimilables por el cuerpo, lo que potencia sus efectos beneficiosos. Su presencia en la dieta diaria es clave para mantener un estado de salud óptimo y prevenir diversas deficiencias nutricionales. Entre las más destacadas por su abundancia y acción específica en estos alimentos se encuentran:
@@ -171,7 +171,7 @@
                   img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/7.png", alt="frutas")
               .crd_hover_txt--body.color-secundario
                 h5.text-center.text-white Flavonoides
-                p.font-small.text-center.text-white Un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
+                p.font-small.text-center.text-white Son un tipo de polifenol presente en frutas cítricas, cebolla y otros vegetales. Poseen propiedades antiinflamatorias y protectoras del sistema inmunológico.
 
           .col-md-7.col-lg-4.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left")

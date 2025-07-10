@@ -22,7 +22,7 @@ export default {
       titulo:
         '¿Qué tanto sabes sobre las generalidades, ingredientes y aspectos higiénicos en la preparación de conservas?',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos básicos <b>en la preparación de conservas</b>',
+        '<b> Objetivo:</b> Apropiar los conceptos básicos en la preparación de conservas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -347,7 +347,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Felicidades! Has superado el 70% de las respuestas correctas en este cuestionario. Demuestras un gran conocimiento sobre la preparación de conservas de frutas y verduras. Has comprendido los aspectos importantes relacionados con la higiene, los ingredientes, los métodos de conservación y la seguridad alimentaria. ¡Sigue aprendiendo y compartiendo tus conocimientos!',
+        '¡Felicidades! Has superado el 70% de las respuestas correctas en este cuestionario. Demuestras un gran conocimiento sobre la preparación de conservas de frutas y verduras. Has comprendido los aspectos importantes relacionados con la higiene, los ingredientes, los métodos de conservación y la seguridad alimentaria. ¡Sigue aprendiendo y compartiendo conocimientos!',
       mensaje_final_reprobado:
         '¡Buen trabajo por completar el cuestionario! Recuerda que la preparación de conservas requiere atención a los detalles para garantizar la calidad y la seguridad alimentaria. Te recomendamos que revises nuevamente el material de estudio para fortalecer tus conocimientos. No dudes en consultar con tu instructor si tienes alguna duda. ¡Sigue practicando y pronto lograrás excelentes resultados!',
     },
