@@ -103,12 +103,12 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Bióxido de azufre',
+              texto: 'Bióxido de azufre.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ácido benzoico',
+              texto: 'Ácido benzoico.',
               esCorrecta: false,
             },
             {
@@ -118,7 +118,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Vinagre',
+              texto: 'Vinagre.',
               esCorrecta: true,
             },
           ],
@@ -134,22 +134,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Pectina',
+              texto: 'Pectina.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Carotenoides',
+              texto: 'Carotenoides.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Almidón',
+              texto: 'Almidón.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Sal',
+              texto: 'Sal.',
               esCorrecta: false,
             },
           ],
@@ -226,22 +226,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Limón',
+              texto: 'Limón.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Manzana',
+              texto: 'Manzana.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Uva',
+              texto: 'Uva.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Piña',
+              texto: 'Piña.',
               esCorrecta: false,
             },
           ],
@@ -347,7 +347,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Felicidades! Has superado el 70% de las respuestas correctas en este cuestionario. Demuestras un gran conocimiento sobre la preparación de conservas de frutas y verduras. Has comprendido los aspectos importantes relacionados con la higiene, los ingredientes, los métodos de conservación y la seguridad alimentaria. ¡Sigue aprendiendo y compartiendo conocimientos!',
+        '¡Felicidades! Se ha superado el 70 % de respuestas correctas en este cuestionario. Se demuestra un sólido conocimiento sobre la preparación de conservas de frutas y verduras, así como la comprensión de aspectos clave relacionados con la higiene, los ingredientes, los métodos de conservación y la seguridad alimentaria. Es recomendable continuar aprendiendo y compartiendo conocimientos.',
       mensaje_final_reprobado:
         '¡Buen trabajo por completar el cuestionario! Recuerda que la preparación de conservas requiere atención a los detalles para garantizar la calidad y la seguridad alimentaria. Te recomendamos que revises nuevamente el material de estudio para fortalecer tus conocimientos. No dudes en consultar con tu instructor si tienes alguna duda. ¡Sigue practicando y pronto lograrás excelentes resultados!',
     },
