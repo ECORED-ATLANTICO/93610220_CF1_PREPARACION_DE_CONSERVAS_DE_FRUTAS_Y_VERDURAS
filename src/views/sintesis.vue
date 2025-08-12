@@ -6,7 +6,7 @@
     .row.justify-content-center
       .mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Generalidades, ingredientes y aspectos higiénicos en la preparación de conservas")
+          img(src="@/assets/curso/sintesis.svg", alt="La imagen ilustra un diagrama de flujo en donde se describe las generalidades, ingredientes y aspectos higiénicos en la preparación de conservas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

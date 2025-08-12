@@ -22,7 +22,7 @@ export default {
       titulo:
         '¿Qué tanto sabes sobre las generalidades, ingredientes y aspectos higiénicos en la preparación de conservas?',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos básicos en la preparación de conservas.',
+        '<b> Objetivo:</b> apropiar los conceptos básicos en la preparación de conservas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
